@@ -2,8 +2,8 @@ name: Daily Autonomous LinkedIn Publisher
 
 on:
   schedule:
-    # 04:00 UTC = 09:30 AM IST (Monday to Friday)
-    - cron: '0 4 * * 1-5'
+    # 04:00 UTC = 09:30 AM IST (Sunday to Friday)
+    - cron: '0 4 * * 0-5'
   workflow_dispatch: # Allows manual trigger anytime from GitHub UI
 
 permissions:
@@ -30,10 +30,10 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Set up Node.js 20
+      - name: Set up Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install Puppeteer & System Dependencies for Chromium
         run: |
