@@ -7,7 +7,7 @@
     "type": "carousel",
     "title": "Nike's Advantage+ Creative Scaling PLAYBOOK.",
     "caption": "Scaling Meta Ads in 2026 isn't about finding a single \"magic creative\" and dumping budget into it.\n\nWithin 10-14 days, single static assets hit frequency ceilings and CPMs surge by 40%+. \n\nTop brands like Nike scale through Modular Creative Velocity:\n• 4 distinct hook variations per visual angle\n• Dynamic catalog feeds mapped to local buying trends\n• Contextual relevance instead of margin-eroding blanket discounts\n\nWhen you give Meta's Advantage+ algorithm modular creative combinations, delivery stabilizes and ROAS compounds over time.\n\nAre you running single static ads or modular creative packs in your ad sets?\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #MediaBuying",
-    "pdf_path": "/Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/slack_downloads/carousel-1.pdf",
+    "pdf_path": "linkedin-carousel-1.pdf",
     "status": "pending",
     "created_at": "2026-08-21T09:55:50.671Z"
   },
@@ -31,7 +31,7 @@
     "type": "carousel",
     "title": "Sync Offline Revenue to Meta via n8n PIPELINE.",
     "caption": "The biggest mistake B2B and high-ticket brands make with Meta Ads:\nThey let Meta optimize in the dark.\n\nIf your sales team closes deals over the phone, on WhatsApp, or inside a CRM, Meta's algorithm has zero idea which leads actually became paying customers.\n\nIt ends up finding more people who fill forms cheaply, rather than people who buy.\n\nHere is the automated solution we build using n8n and Meta Conversions API (CAPI):\n⚡ 1. Sales rep marks deal 'Closed-Won' in Google Sheets / CRM\n⚡ 2. n8n webhook triggers in real time\n⚡ 3. Customer data is hashed with SHA-256 (Phone + Email + IP) for 9.0+ Event Match Quality\n⚡ 4. Real transaction revenue is pushed directly back to Meta Ads Manager\n\nWithin 14 days, Meta's Advantage+ targeting recalculates and starts hunting for high-value buyers.\n\nSwipe through the step-by-step architecture above! 👆\n\n#n8n #Automation #MetaAds #ConversionsAPI #GrowthEngineering #B2BSales #DataPipeline",
-    "pdf_path": "/Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/slack_downloads/carousel-2.pdf",
+    "pdf_path": "linkedin-carousel-2.pdf",
     "status": "pending",
     "created_at": "2026-08-21T09:55:50.671Z"
   },

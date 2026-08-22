@@ -55,8 +55,21 @@ async function runDailyPublish() {
         console.log(`\n[*] Found pending post in queue: [${pendingPost.type.toUpperCase()}] ${pendingPost.title}`);
         let result;
         if (pendingPost.type === 'carousel') {
-            console.log(`[*] Publishing Carousel PDF: ${pendingPost.pdf_path}`);
-            result = await publishDocumentPost(pendingPost.pdf_path, pendingPost.title, pendingPost.caption);
+            // Find or build PDF
+            let pdfFile = path.resolve(__dirname, 'linkedin-carousel-1.pdf');
+            if (!fs.existsSync(pdfFile)) {
+                console.log('[*] Compiling fresh Carousel PDF via Puppeteer...');
+                execSync('node build_carousel_today.cjs', { cwd: __dirname, stdio: 'inherit' });
+            }
+
+            if (!fs.existsSync(pdfFile)) {
+                // Try alternative locations
+                const alt1 = path.resolve(__dirname, 'slack_downloads/carousel-1.pdf');
+                if (fs.existsSync(alt1)) pdfFile = alt1;
+            }
+
+            console.log(`[*] Publishing Carousel PDF: ${pdfFile}`);
+            result = await publishDocumentPost(pdfFile, pendingPost.title, pendingPost.caption);
         } else {
             console.log(`[*] Publishing Text Post...`);
             result = await publishTextPost(pendingPost.caption);
