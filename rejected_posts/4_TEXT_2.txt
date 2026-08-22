@@ -1,0 +1,13 @@
+REJECTED: 4. TEXT 2
+pillar: community-question
+source: r/IndianStartups (question) + raw_notes.toml
+------------------------------------------------------------
+Moving a startup from zero to a solid customer base is an intriguing challenge. 
+
+For me, in the residential and farmhouse plot sector, the biggest hurdle wasn't generating leads but getting genuine interests to translate into site visits. A sea of forms get filled and interest piques on calls, but many vanish before taking the next step.
+
+To tackle this, I transformed the website into a comprehensive sales tool, not just a brochure. It provides interactive elements, plot statuses, dimensions, and directions are available at a click. More importantly, potential buyers see availability before calling, reducing unnecessary inquiries and focusing on genuine prospects.
+
+The key shift was sorting leads by their readiness stages, whether they're just surfing or prepared to discuss with family. This strategic redirection helped us focus on those who are truly ready, reshaping the challenge from mere lead generation to nurturing real customer journeys.
+
+Which part of your startup journey was hardest to navigate? Comment below and let's exchange insights!

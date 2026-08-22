@@ -1,0 +1,29 @@
+Building an AI Voice Calling Agent in 2026 is either a ₹15/min profit-sink or a ₹3/min high-margin growth engine.
+
+It all comes down to your technical architecture and model stack.
+
+Here is the complete step-by-step master breakdown of AI Calling Agents—PSTN, SIP Trunks, the 4-step voice pipeline, open-source frameworks, and real cost economics:
+
+1. Telephony Basics: PSTN vs SIP Trunks
+- PSTN: Traditional mobile/landline networks.
+- SIP Trunk: The virtual pipe connecting your internet AI server to mobile carriers (Exotel, Vobiz for India +91 TRAI DLT compliance; Twilio/Plivo for global DIDs).
+
+2. The 4-Step Technical Voice Pipeline (<800ms Latency)
+- VAD (Voice Activity Detection): Detects speech vs silence.
+- STT (Speech-to-Text): Deepgram or Sarvam AI (for Hindi/Hinglish).
+- LLM (Language Model): GPT-4o or Claude 3.5 Sonnet for intent & context.
+- TTS (Text-to-Speech): ElevenLabs or Sarvam TTS.
+
+3. No-Code Platforms vs Open-Source Frameworks
+- No-Code (Retell AI, Vapi, Synthflow, Bolna AI): Quick 30-min setup, but costs ₹14–₹15/minute.
+- Open-Source Coding Route (LiveKit Agents, Pipecat): Full code ownership, WebRTC streaming, and zero platform markups.
+
+4. The Real Cost Breakdown (10,000 Call Minutes/Month)
+- No-Code Route: ~₹1,50,000 / month (at ₹15/min).
+- Custom Coding Route (Sarvam/Deepgram + VPS): ~₹35,000 / month (at ₹3.5/min) + ₹500 VPS hosting.
+
+The Coding Route cuts per-minute voice costs by 75% at scale.
+
+Swipe through the carousel attached for the full technical framework.
+
+Comment "VOICE" below to get our complete LiveKit, n8n & SIP trunking setup blueprints.

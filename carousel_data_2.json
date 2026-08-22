@@ -1,0 +1,63 @@
+{
+  "1": {
+    "HEADER_LABEL": "N8N OFFLINE CAPI",
+    "HOOK_PART_1": "Sync Offline Revenue",
+    "HOOK_PART_2": "to Meta via n8n",
+    "HOOK_EMPHASIS": "PIPELINE",
+    "SUBTITLE": "How to feed closed-won sales back to Meta Ads to optimize for high-ticket buyers."
+  },
+  "2": {
+    "PILL_LABEL": "ATTRIBUTION GAP",
+    "EYEBROW": "THE BLINDSPOT",
+    "HEADLINE_PART_1": "Meta optimizes for",
+    "HEADLINE_PART_2": "cheap junk leads",
+    "HEADLINE_EMPHASIS": "BLINDSPOT",
+    "SUBHEAD": "Without offline sales data, the algorithm chases low-intent form submitters.",
+    "BODY_TEXT": "Feeding back actual revenue teaches Meta's auction engine who your highest-paying customers are."
+  },
+  "3": {
+    "HEADER_LABEL": "N8N WORKFLOW",
+    "HUGE_STAT": "15 MINS",
+    "CIRCLE_WORD_1": "SYNC",
+    "CIRCLE_WORD_2": "CYCLE",
+    "HEADLINE_PART_1": "Automated Google Sheet",
+    "HEADLINE_PART_2": "to Meta CAPI sync",
+    "HEADLINE_EMPHASIS": "WEBHOOK",
+    "BODY_TEXT": "An n8n webhook triggers whenever your sales team marks a deal as 'Closed-Won' in Sheets or CRM."
+  },
+  "4": {
+    "PILL_LABEL": "SECURITY & PII",
+    "EYEBROW": "DATA PRIVACY",
+    "HEADLINE_PART_1": "SHA-256 hashing",
+    "HEADLINE_PART_2": "for Event Match Quality",
+    "HEADLINE_EMPHASIS": "ENCRYPTION",
+    "SUBHEAD": "Hashing customer phone, email, and IP address for 9.0+ EMQ score.",
+    "BODY_TEXT": "Passing hashed identifiers guarantees accurate cross-device attribution while remaining privacy-compliant."
+  },
+  "5": {
+    "HEADER_LABEL": "ALGORITHM TUNING",
+    "HUGE_STAT": "+45% ROAS",
+    "CIRCLE_WORD_1": "PROFIT",
+    "CIRCLE_WORD_2": "LIFT",
+    "HEADLINE_PART_1": "Advantage+ targets",
+    "HEADLINE_PART_2": "high-value prospects",
+    "HEADLINE_EMPHASIS": "TARGETING",
+    "BODY_TEXT": "When Meta receives conversion value signals, cost per closed deal drops dramatically within 14 days."
+  },
+  "6": {
+    "HEADER_LABEL": "ARCHITECTURE",
+    "HUGE_STAT": "100% AUTO",
+    "HEADLINE_PART_1": "Zero manual uploads",
+    "HEADLINE_PART_2": "and zero CSV hassle",
+    "HEADLINE_EMPHASIS": "AUTONOMOUS",
+    "SUBHEAD": "Autonomous data loop connects sales closing to Meta bidding in real time.",
+    "BODY_TEXT": "Eliminating manual CSV uploads ensures your ad campaigns never train on stale conversion data."
+  },
+  "7": {
+    "S7_LABEL": "NEXT STEPS",
+    "HEADLINE_PART_1": "Feed revenue back",
+    "HEADLINE_PART_2": "to your ad account",
+    "HEADLINE_EMPHASIS": "GROWTH",
+    "SUBHEAD": "Connect your CRM or Google Sheets to Meta Conversions API using automated n8n workflows."
+  }
+}

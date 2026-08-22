@@ -1,0 +1,78 @@
+==================================================
+2. TEXT 1
+==================================================
+Most people quoting a Facebook Ads cost per click benchmark are quoting 2017. WordStream's 2017 sample put the median Facebook Ads cost per click across all industries for US advertisers at $1.72 from November 2016 to January 2017. 
+
+This figure serves as a historical marker more than a target in today's environment. Cost-per-click (CPC) values have shifted significantly since then, making it crucial for advertisers to base their strategy on current metrics. 
+
+Have you seen CPC changes in your industry? Comment 'CPC Shift' and I'll DM you insights on current bidding strategies.
+
+==================================================
+3. CAROUSEL 2
+==================================================
+Hook: A bot that pushes product loses the conversation.
+
+Slide 1:  
+A bot that pushes product loses the conversation.  
+
+Slide 2:  
+A distributor I built this for was overwhelmed with farmer messages.  
+
+Slide 3:  
+I built a WhatsApp automation on n8n. It matched farmers' queries to their situations.  
+
+Slide 4:  
+Early tests revealed the bot got stuck in loops with unclear queries.  
+
+Slide 5:  
+I detailed how to process each step until answers resolved the issue.  
+
+Slide 6:  
+Now farmers get answers and dealer info without a phone call. Sales improved.  
+
+Slide 7:  
+The bot suggests seeds based on context, not by force, trust remains intact.  
+
+CAROUSEL CAPTION:  
+Ever seen a bot derail a conversation by pushing too hard? I built a WhatsApp automation on n8n for a distributor dealing with overwhelmed support from farmers. Initially, the bot got stuck in loops due to unclear queries. The solution lay in refining the reasoning process step by step. Now, the bot delivers tailored responses and nearby dealer info directly to farmers, boosting client sales. Comment 'BOT' if this has happened to you, and I'll DM you the conversational logic I used.
+
+==================================================
+4. TEXT 2
+==================================================
+Will ads on ChatGPT reach your specific business audience?  
+
+For someone transitioning from traditional operations to digital marketing, like cement and sariya businesses catering to karigars and contractors, the challenge isn't just about running ads. It's about ensuring those ads are relevant to the audience. When I helped build a simple online presence for a similarly traditional business, the key was understanding who needed to see it: not the general public, but specific local audiences like contractors. 
+
+We experimented with AI-generated videos targeting this niche, content no one else was making for local building materials. To our surprise, these videos performed well organically because there was zero competition in that space. It's a reminder that while ChatGPT ads might be shiny and new, success hinges on targeting the right audience with the right message. 
+
+What sectors do you think ChatGPT ads should target for effectiveness? Comment below, and I'll DM you insight into our approach.
+
+==================================================
+5. CAROUSEL 3
+==================================================
+Hook: n8n update clamps down on data leaks.
+
+Slide 1:  
+n8n update clamps down on data leaks.
+
+Slide 2:  
+n8n@2.35.0 tightens node responses and data handling.
+
+Slide 3:  
+AI Agent nodes now block unwanted text in responses.
+
+Slide 4:  
+Previously, unfiltered text leaked during AI node operations.
+
+Slide 5:  
+These leaks led to unintended data exposure.
+
+Slide 6:  
+Check AI Agent Node configurations for sensitive content exposure.
+
+Slide 7:  
+I welcome n8n's tighter control on data flow.
+
+CAROUSEL CAPTION:  
+Data security in automation takes another step forward with n8n@2.35.0. Check your AI Agent Node setup to ensure no sensitive information slips through unnoticed. Agree or disagree with this update? Drop a comment below and I'll share deeper insights on n8n's latest changes.
+

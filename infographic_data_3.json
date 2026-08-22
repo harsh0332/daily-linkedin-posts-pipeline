@@ -1,0 +1,27 @@
+{
+  "title_main": "How AI Can Slash",
+  "title_span": "Your CPL by Over 40%",
+  "subtitle": "A step-by-step impact of AI-driven audience segmentation on cost per lead.",
+  "badge": "\ud83d\udcc8 AI IN ADVERTISING",
+  "date_label": "2023 AI Ad Efficiency Report",
+  "takeaway_num": "\u20b9250 to \u20b9145",
+  "takeaway_text": "is the average reduction in CPL with AI-driven targeting, alongside a 60% spike in conversions.",
+  "source": "Source: Marketing Insights | @harshchouksey",
+  "bars": [
+    {
+      "label": "Data Collection Phase",
+      "value": "Initiate",
+      "color": "#4CAF50"
+    },
+    {
+      "label": "AI Audience Segmentation",
+      "value": "Optimize",
+      "color": "#2196F3"
+    },
+    {
+      "label": "Targeted Ads Deployment",
+      "value": "Enhance",
+      "color": "#FFEB3B"
+    }
+  ]
+}

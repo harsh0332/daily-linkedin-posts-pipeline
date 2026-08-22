@@ -1,0 +1,62 @@
+[
+  {
+    "id": "post_1787306150671_1",
+    "scheduled_date": "2026-08-31",
+    "scheduled_time": "09:30 AM IST",
+    "scheduled_iso": "2026-08-31T09:30:00+05:30",
+    "type": "carousel",
+    "title": "Nike's Advantage+ Creative Scaling PLAYBOOK.",
+    "caption": "Scaling Meta Ads in 2026 isn't about finding a single \"magic creative\" and dumping budget into it.\n\nWithin 10-14 days, single static assets hit frequency ceilings and CPMs surge by 40%+. \n\nTop brands like Nike scale through Modular Creative Velocity:\n• 4 distinct hook variations per visual angle\n• Dynamic catalog feeds mapped to local buying trends\n• Contextual relevance instead of margin-eroding blanket discounts\n\nWhen you give Meta's Advantage+ algorithm modular creative combinations, delivery stabilizes and ROAS compounds over time.\n\nAre you running single static ads or modular creative packs in your ad sets?\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #MediaBuying",
+    "pdf_path": "/Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/slack_downloads/carousel-1.pdf",
+    "status": "pending",
+    "created_at": "2026-08-21T09:55:50.671Z"
+  },
+  {
+    "id": "post_1787306150671_2",
+    "scheduled_date": "2026-09-01",
+    "scheduled_time": "09:30 AM IST",
+    "scheduled_iso": "2026-09-01T09:30:00+05:30",
+    "type": "text",
+    "title": "If your media buyer is only reporting on \"Cost Per Lead\" (CP",
+    "caption": "If your media buyer is only reporting on \"Cost Per Lead\" (CPL), you are likely optimizing for tire-kickers.\n\nIn 2026, the true metric that separates profitable ad accounts from money pits is:\n👉 Cost Per First Meaningful Action (CP-FMA).\n\nA $2 CPL looks incredible on a weekly agency dashboard.\nUntil your sales team spends 40 hours calling leads who:\n• Don't remember filling out the form\n• Put in invalid phone numbers\n• Have zero budget or decision-making power\n\nHere is how we shift the optimization model:\n\n1️⃣ Define the First Meaningful Action:\nIt isn't a form submission. It is:\n• Scheduling a calendar call\n• Verifying their phone number via WhatsApp OTP\n• Answering a 2-question qualification filter\n\n2️⃣ Pass the Qualified Event via Conversions API:\nWhen a lead completes that first meaningful action, send a custom 'QualifiedLead' or 'InitiateCheckout' event back to Meta CAPI.\n\n3️⃣ Switch Optimization Goals:\nTrain Meta's Advantage+ auction engine to bid on users likely to take the meaningful action, rather than users who blindly tap 'Submit' on instant forms.\n\nYes, your top-of-funnel CPL might rise from $2 to $5.\nBut your sales conversion rate jumps from 3% to 18% — cutting your final Customer Acquisition Cost in half.\n\nWhat is the First Meaningful Action in your sales funnel?\n\nLet's discuss below! 👇\n\n#PerformanceMarketing #MetaAds #GrowthStrategy #LeadGeneration #B2BMarketing #MarketingAnalytics #CPL",
+    "pdf_path": null,
+    "status": "pending",
+    "created_at": "2026-08-21T09:55:50.671Z"
+  },
+  {
+    "id": "post_1787306150671_3",
+    "scheduled_date": "2026-09-02",
+    "scheduled_time": "09:30 AM IST",
+    "scheduled_iso": "2026-09-02T09:30:00+05:30",
+    "type": "carousel",
+    "title": "Sync Offline Revenue to Meta via n8n PIPELINE.",
+    "caption": "The biggest mistake B2B and high-ticket brands make with Meta Ads:\nThey let Meta optimize in the dark.\n\nIf your sales team closes deals over the phone, on WhatsApp, or inside a CRM, Meta's algorithm has zero idea which leads actually became paying customers.\n\nIt ends up finding more people who fill forms cheaply, rather than people who buy.\n\nHere is the automated solution we build using n8n and Meta Conversions API (CAPI):\n⚡ 1. Sales rep marks deal 'Closed-Won' in Google Sheets / CRM\n⚡ 2. n8n webhook triggers in real time\n⚡ 3. Customer data is hashed with SHA-256 (Phone + Email + IP) for 9.0+ Event Match Quality\n⚡ 4. Real transaction revenue is pushed directly back to Meta Ads Manager\n\nWithin 14 days, Meta's Advantage+ targeting recalculates and starts hunting for high-value buyers.\n\nSwipe through the step-by-step architecture above! 👆\n\n#n8n #Automation #MetaAds #ConversionsAPI #GrowthEngineering #B2BSales #DataPipeline",
+    "pdf_path": "/Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/slack_downloads/carousel-2.pdf",
+    "status": "pending",
+    "created_at": "2026-08-21T09:55:50.671Z"
+  },
+  {
+    "id": "post_1787306150671_4",
+    "scheduled_date": "2026-09-03",
+    "scheduled_time": "09:30 AM IST",
+    "scheduled_iso": "2026-09-03T09:30:00+05:30",
+    "type": "text",
+    "title": "The fastest way to wreck a winning Meta Ad set:",
+    "caption": "The fastest way to wreck a winning Meta Ad set:\n👉 Increasing the daily budget by 50% because you had 2 great days.\n\nHere is what actually happens behind the scenes in the ad auction when you spike budgets:\n\n1️⃣ The Learning Curve Shock:\nA budget increase larger than 20% triggers a significant edit, pushing your ad set back into the Learning Phase. Meta's auction bidder suddenly resets its historical pacing.\n\n2️⃣ Bidding in Higher Auction Tiers:\nWhen you double a budget vertically, Meta is forced to expand bids into higher CPM segments in real time. You aren't just reaching \"more of the same audience\" — you are entering costlier auction pools.\n\n3️⃣ The Solution: Horizontal Scaling over Vertical Spikes:\nInstead of jumping from $100/day to $250/day on one ad set:\n• Scale vertically by a strict 15-20% every 48-72 hours only if CPA holds.\n• Scale horizontally by introducing new modular creative angles into dedicated Advantage+ Creative testing campaigns.\n• Isolate your top 3 evergreen winners into a high-budget scaling campaign with automated bidding caps.\n\nScaling ad spend is an engineering exercise, not an adrenaline rush.\n\nHow often do you adjust your Meta Ad budgets?\n\nShare your approach in the comments! 👇\n\n#MetaAds #MediaBuying #PerformanceMarketing #AdScaling #GrowthHacking #DigitalAdvertising #PPC",
+    "pdf_path": null,
+    "status": "pending",
+    "created_at": "2026-08-21T09:55:50.671Z"
+  },
+  {
+    "id": "post_1787306150671_5",
+    "scheduled_date": "2026-09-04",
+    "scheduled_time": "09:30 AM IST",
+    "scheduled_iso": "2026-09-04T09:30:00+05:30",
+    "type": "text",
+    "title": "If you are generating 100 leads a day on Meta and your sales",
+    "caption": "If you are generating 100 leads a day on Meta and your sales reps are complaining about lead quality, stop adding more ad spend.\n\nAdd intentional friction instead.\n\nHere are the 5 high-intent signals top performance marketing teams embed into Meta Lead Ads in 2026:\n\n1️⃣ Two-Step Intent Review:\nNever use the 'More Volume' instant form setting. Switch to 'Higher Intent' which forces a full review swipe before submission. This alone cuts accidental form fills by 25%.\n\n2️⃣ Dynamic Budget Range Dropdown:\nDo not make budget an open text field. Give 4 structured ranges. When users must actively select their investment tier, commitment spikes.\n\n3️⃣ WhatsApp OTP / Phone Number Confirmation:\nIntegrate a one-time verification step or make country code pre-filled with phone validation. Fake and typoed numbers drop to near zero.\n\n4️⃣ Timeframe Selection (\"Immediate\" vs \"Exploring\"):\nLeads needing solutions in <7 days get routed instantly to sales via automated SMS/WhatsApp alerts; \"exploring\" leads go into an email nurture sequence.\n\n5️⃣ Conversions API Gateway Feedback:\nFeed every qualified sales conversation back into Meta CAPI as a custom signal to train the delivery algorithm away from low-intent clickers.\n\nAdding friction reduces raw lead volume by 25-30% — but it frequently doubles closed-won revenue while slashing sales acquisition fatigue.\n\nAre your lead forms optimized for quantity or sales qualification?\n\nLet's discuss below! 👇\n\n#LeadGeneration #MetaAds #PerformanceMarketing #SalesAutomation #B2BGrowth #DigitalMarketing #ConversionRateOptimization",
+    "pdf_path": null,
+    "status": "pending",
+    "created_at": "2026-08-21T09:55:50.671Z"
+  }
+]

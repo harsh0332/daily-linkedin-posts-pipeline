@@ -1,0 +1,100 @@
+{
+  "ad_id": "2052912668657210",
+  "page_name": "Blabliblu",
+  "page_id": "594916633707039",
+  "page_profile_pic": "https://scontent.fbho3-4.fna.fbcdn.net/v/t39.35426-6/725605418_1335825205225247_1604293854923816336_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DWOjIc1tnBQQ7kNvwGz3jK1&_nc_oc=Adq0zi94vDvus3t6-V9oi2Al8SFh0O9eL982nzJNTo_j_-LX1HK5brZYH98m6LrfcRw&_nc_zt=14&_nc_ht=scontent.fbho3-4.fna&_nc_gid=zlkPrmvc7ZK3ttUII4A9Dg&_nc_ss=7b289&oh=00_AQGJ5XcVYU5RoiLn9P0JWE0M6MJVWQ2DKO5-Yl1Q28knfQ&oe=6A8FD082",
+  "page_url": "https://www.facebook.com/blabliblu.official/",
+  "page_like_count": 6097,
+  "page_categories": [
+    "Health & Beauty"
+  ],
+  "title": "3 perfumes for 750/-",
+  "body": "Pick any 3 fragrances of your choice and enjoy 12+ hours of long-lasting scent. No more re-applying, no more boring perfumes.",
+  "caption": "blabliblulife.com",
+  "link_description": "Build your own custom gift box with Bla Bli Blu! Mix and match your favorite items to create a unique, personalized small box. Create perfect bundle today!",
+  "link_url": "https://blabliblulife.com/products/build-your-small-own-box",
+  "cta_text": "Shop now",
+  "cta_type": "SHOP_NOW",
+  "display_format": "IMAGE",
+  "video_hd_url": null,
+  "video_sd_url": null,
+  "image_url": "https://scontent.fbho3-1.fna.fbcdn.net/v/t39.35426-6/726782971_874716875681332_6168311701840974805_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Vf9O6Vyl7GgQ7kNvwHn1lv1&_nc_oc=AdoF-72KC7xDZVTbsFVYP9jEKz5gi2ljmHoc-lTnLKf1D5wJTGemIH6c_ZQvFdF8hCE&_nc_zt=14&_nc_ht=scontent.fbho3-1.fna&_nc_gid=zlkPrmvc7ZK3ttUII4A9Dg&_nc_ss=7b289&oh=00_AQHxh_rMjMXvgp7B7ePg3YeTX0NA6QWGD6oMgmuLewp4Hw&oe=6A8FB2FA",
+  "preview_image_url": null,
+  "video_count": 0,
+  "image_count": 1,
+  "cards": [],
+  "start_date_ts": 1781852400,
+  "end_date_ts": 1787382000,
+  "is_active": true,
+  "publisher_platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "THREADS"
+  ],
+  "total_active_time": null,
+  "collation_count": 7,
+  "categories": [
+    "UNKNOWN"
+  ],
+  "reach_estimate": null,
+  "spend": null,
+  "currency": null,
+  "impressions_text": null,
+  "video_duration_s": null,
+  "creative_asset_age_days": null,
+  "creative_asset_id": null,
+  "source_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=2052912668657210&is_targeted_country=false&media_type=all&search_type=keyword_unordered",
+  "days_running": 64,
+  "verdict": "Strong Performer",
+  "stage": "Winning",
+  "why_it_works": [
+    {
+      "ok": true,
+      "text": "Still running today"
+    },
+    {
+      "ok": true,
+      "text": "64 days live — running over 2 months"
+    },
+    {
+      "ok": true,
+      "text": "Delivering on 5 placements — broad budget, likely Advantage+"
+    },
+    {
+      "ok": true,
+      "text": "7 variants of this creative in market — being scaled"
+    },
+    {
+      "ok": true,
+      "text": "Body copy 125 chars — in the 80-300 range that converts on Meta"
+    },
+    {
+      "ok": true,
+      "text": "Opens with a number, price or question — a real hook"
+    },
+    {
+      "ok": true,
+      "text": "'Shop now' is a closing CTA — bottom of funnel"
+    }
+  ],
+  "watch_outs": [],
+  "score_meta": {
+    "score": 78,
+    "tone": "green",
+    "proof_score": 48,
+    "craft_score": 30,
+    "confidence": "High",
+    "steal": [
+      "Hook to model: \"Pick any 3 fragrances of your choice and enjoy 12+ hours of long-lasting scent\"",
+      "They use 'Shop now' — closing straight from the feed, no warm-up step",
+      "Placements are wide open, not hand-picked — budget is going through Advantage+"
+    ],
+    "disclaimer": "Meta does not publish spend, impressions or ROAS for commercial ads. This score is inferred from public delivery data only."
+  },
+  "formats": [
+    "text",
+    "carousel"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title_main": "Lead Response Time Vs",
+  "title_span": "Booking Rates",
+  "subtitle": "How instant automated follow-ups affect sales booking conversions.",
+  "badge": "\ud83d\udcca PIPELINE CONVERSIONS",
+  "date_label": "2025 Lead Gen Report",
+  "takeaway_num": "5 Mins",
+  "takeaway_text": "is the critical threshold. Contacting leads within 5 minutes yields a 391% higher booking rate.",
+  "source": "Source: Industry Benchmark | @harshchouksey",
+  "bars": [
+    {
+      "label": "Under 5 Minutes (Auto-WhatsApp) - 95%",
+      "value": "95%",
+      "color": "#E63946"
+    },
+    {
+      "label": "5 to 10 Minutes - 55%",
+      "value": "55%",
+      "color": "#D9785B"
+    },
+    {
+      "label": "10 to 30 Minutes - 25%",
+      "value": "25%",
+      "color": "#E8A33D"
+    },
+    {
+      "label": "Over 30 Minutes - 10%",
+      "value": "10%",
+      "color": "#5E6AD2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Most founders spend 70% of their week playing telephone between scattered SaaS tools, Slack threads, and unread reports.
+
+The future of business ops isn't hiring more managers. It's deploying Autonomous AI Agents.
+
+Using Claude 3.5 / Opus paired with n8n webhooks, we built 5 custom AI Agents that run core company operations 24/7.
+
+Here is the exact 5-agent breakdown & setup architecture:
+
+1. Company Pulse Agent
+Synthesizes Slack messages, CRM updates, and Stripe financial data. Output: A 2-minute daily founder brief containing team blockers, unhappy clients, and pipeline momentum.
+
+2. Churn & Revenue Risk Agent
+Monitors customer health signals, usage drop-offs, and unresolved support tickets. Output: Alerts account managers 30 days BEFORE a client cancels.
+
+3. Hiring & Interview Prepper Agent
+Reads candidate resumes & HR notes. Output: Generates a 10-point founder-fit scorecard and exact deal-closing interview questions before every final round.
+
+4. Calendar & Priority Guard Agent
+Sorts daily priorities, color-codes time blocks, and protects deep work hours from unnecessary meeting invites.
+
+5. Sales Performance & Pipeline Agent
+Audits rep outreach, tracks deal velocities, and triggers automated WhatsApp/email follow-ups for stalled proposals.
+
+How to Build This AI Agent Setup:
+- Stack: Claude Opus (LLM Reasoning) + n8n (API & Webhook Orchestration) + Slack Webhooks.
+- Tool Setup: Route tool events -> n8n Webhook -> Claude Opus JSON parser -> Slack/CRM Alert.
+
+Comment "GUIDE" below to get the full step-by-step n8n workflow blueprints, prompt templates, and tool setup guide!

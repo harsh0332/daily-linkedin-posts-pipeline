@@ -1,0 +1,65 @@
+{
+  "1": {
+    "HEADER_LABEL": "CONVERSATION BOT",
+    "HOOK_PART_1": "A bot that pushes",
+    "HOOK_PART_2": "product loses the chat",
+    "HOOK_EMPHASIS": "CONVERSATION",
+    "SUBTITLE": "Ever seen a bot send conversations off the rails by pushing too hard? This is about fixing those mistakes."
+  },
+  "2": {
+    "PILL_LABEL": "THE CHALLENGE",
+    "EYEBROW": "MESSAGE OVERLOAD",
+    "HEADLINE_PART_1": "Distributor overwhelmed",
+    "HEADLINE_PART_2": "with farmer messages",
+    "HEADLINE_EMPHASIS": "OVERWHELMED",
+    "SUBHEAD": "A distributor struggled to manage incoming messages effectively.",
+    "BODY_TEXT": "Farmers swamped the distributor with messages, requiring a smarter processing solution."
+  },
+  "3": {
+    "HEADER_LABEL": "AUTOMATION BUILD",
+    "HUGE_STAT": "N8N",
+    "CIRCLE_WORD_1": "MATCHED",
+    "CIRCLE_WORD_2": "QUERIES",
+    "HEADLINE_PART_1": "Automation matched",
+    "HEADLINE_PART_2": "queries to situations",
+    "HEADLINE_EMPHASIS": "QUERIES",
+    "BODY_TEXT": "I used n8n to automate WhatsApp, understanding and responding to farmers' specific needs."
+  },
+  "4": {
+    "PILL_LABEL": "BOT ERRORS",
+    "EYEBROW": "LOOP ISSUES",
+    "HEADLINE_PART_1": "Bot got stuck",
+    "HEADLINE_PART_2": "in looping errors",
+    "HEADLINE_EMPHASIS": "LOOPS",
+    "SUBHEAD": "Early tests showed the importance of clear communication.",
+    "BODY_TEXT": "Unclear farmer queries caused the bot to malfunction, creating repetitive loops."
+  },
+  "5": {
+    "HEADER_LABEL": "THE REFINEMENT",
+    "HUGE_STAT": "STEP-BY-STEP",
+    "CIRCLE_WORD_1": "DETAILED",
+    "CIRCLE_WORD_2": "PROCESS",
+    "HEADLINE_PART_1": "Each step detailed",
+    "HEADLINE_PART_2": "to resolve issues",
+    "HEADLINE_EMPHASIS": "PROCESS",
+    "BODY_TEXT": "By refining the decision-making process, bot interactions became robust and effective."
+  },
+  "6": {
+    "HEADER_LABEL": "IMPROVED RESULTS",
+    "HUGE_STAT": "BETTER SALES",
+    "CIRCLE_WORD_1": "QUICK",
+    "CIRCLE_WORD_2": "ANSWERS",
+    "HEADLINE_PART_1": "Farmers receive answers",
+    "HEADLINE_PART_2": "and dealer info faster",
+    "HEADLINE_EMPHASIS": "FASTER",
+    "SUBHEAD": "Direct information delivery accelerates sales processes.",
+    "BODY_TEXT": "Farmers got their queries resolved without calling, boosting overall sales efficiency."
+  },
+  "7": {
+    "HEADLINE_PART_1": "Suggest seeds by context",
+    "HEADLINE_PART_2": "and keep trust intact",
+    "HEADLINE_EMPHASIS": "TRUST",
+    "SUBHEAD": "Maintaining trust with farmers through contextual suggestions is key.",
+    "BODY_TEXT": "Bots suggest products based on context, ensuring farmers' trust remains strong."
+  }
+}

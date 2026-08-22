@@ -1,0 +1,63 @@
+{
+  "1": {
+    "HEADER_LABEL": "LEAD AUTOMATION",
+    "HOOK_PART_1": "Automating Lead Nurturing:",
+    "HOOK_PART_2": "Form Fill to WhatsApp in 90s",
+    "HOOK_EMPHASIS": "90s NURTURE",
+    "SUBTITLE": "How to double qualification rates by eliminating SDR response delays."
+  },
+  "2": {
+    "PILL_LABEL": "RESPONSE LAG",
+    "EYEBROW": "THE 5-MINUTE RULE",
+    "HEADLINE_PART_1": "Responding after 5 mins drops",
+    "HEADLINE_PART_2": "lead qualification by 80%",
+    "HEADLINE_EMPHASIS": "5-MIN RULE",
+    "SUBHEAD": "Speed-to-lead is the single biggest conversion lever.",
+    "BODY_TEXT": "78% of B2B and high-ticket buyers purchase from the vendor that responds first."
+  },
+  "3": {
+    "HEADER_LABEL": "INSTANT CAPTURE",
+    "HUGE_STAT": "90 SECS",
+    "CIRCLE_WORD_1": "AUTO",
+    "CIRCLE_WORD_2": "WEBHOOK",
+    "HEADLINE_PART_1": "Route leads instantly via",
+    "HEADLINE_PART_2": "n8n webhooks to WhatsApp API",
+    "HEADLINE_EMPHASIS": "WEBHOOK",
+    "BODY_TEXT": "Bypass email clutter. Deliver high-converting WhatsApp intro messages within seconds."
+  },
+  "4": {
+    "PILL_LABEL": "AI QUALIFICATION",
+    "EYEBROW": "SMART FILTER",
+    "HEADLINE_PART_1": "AI Agents categorize budget",
+    "HEADLINE_PART_2": "and fit before booking",
+    "HEADLINE_EMPHASIS": "AI FILTER",
+    "SUBHEAD": "Save SDR bandwidth for sales-ready leads.",
+    "BODY_TEXT": "Interactive WhatsApp bots ask qualifying questions automatically before passing to sales."
+  },
+  "5": {
+    "HEADER_LABEL": "CALENDAR SYNC",
+    "HUGE_STAT": "45% MORE",
+    "CIRCLE_WORD_1": "BOOKED",
+    "CIRCLE_WORD_2": "CALLS",
+    "HEADLINE_PART_1": "Dynamic calendar booking link",
+    "HEADLINE_PART_2": "sent right inside WhatsApp",
+    "HEADLINE_EMPHASIS": "CALENDAR",
+    "BODY_TEXT": "Leads select their own demo time without waiting for back-and-forth emails."
+  },
+  "6": {
+    "HEADER_LABEL": "WORKFLOW IMPACT",
+    "HUGE_STAT": "0 DELAY",
+    "HEADLINE_PART_1": "Automated workflow eliminates",
+    "HEADLINE_PART_2": "manual spreadsheet chaos",
+    "HEADLINE_EMPHASIS": "AUTOMATED",
+    "SUBHEAD": "Zero missed leads, 100% reliable tracking.",
+    "BODY_TEXT": "Connecting Meta Ads directly to WhatsApp CRM guarantees maximum ROI from ad spend."
+  },
+  "7": {
+    "HEADLINE_PART_1": "How fast does your team",
+    "HEADLINE_PART_2": "respond to new leads?",
+    "HEADLINE_EMPHASIS": "WORKFLOW",
+    "SUBHEAD": "Comment 'AUTOMATE' for our complete n8n workflow blueprint.",
+    "BODY_TEXT": "Follow for daily performance marketing and automation strategies."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "1": {
+    "HEADER_LABEL": "AI VOICE ARCHITECTURE",
+    "HOOK_PART_1": "AI Voice Calling Agent",
+    "HOOK_PART_2": "Complete Blueprint",
+    "HOOK_EMPHASIS": "VOICE AGENT",
+    "SUBTITLE": "PSTN, SIP Trunks, 4-Step Technical Pipeline, Platforms & Real Cost Breakdown — A complete guide."
+  },
+  "2": {
+    "PILL_LABEL": "01. ARCHITECTURE",
+    "EYEBROW": "THE 4-STEP PIPELINE",
+    "HEADLINE_PART_1": "How an AI Calling Agent",
+    "HEADLINE_PART_2": "Listens, Thinks & Speaks",
+    "HEADLINE_EMPHASIS": "VOICE PIPELINE",
+    "SUBHEAD": "4-step loop: VAD -> STT -> LLM -> TTS in under 800ms latency.",
+    "BODY_TEXT": "VAD detects speech, STT (Deepgram/Sarvam) converts voice to text, LLM (GPT-4o/Claude) calculates reply, TTS (ElevenLabs/Sarvam) speaks back."
+  },
+  "3": {
+    "HEADER_LABEL": "02. TELEPHONY",
+    "HUGE_STAT": "SIP",
+    "CIRCLE_WORD_1": "PHONE",
+    "CIRCLE_WORD_2": "TRUNK",
+    "HEADLINE_PART_1": "Connecting AI Agents to",
+    "HEADLINE_PART_2": "Real Mobile Networks",
+    "HEADLINE_EMPHASIS": "SIP TRUNKS",
+    "BODY_TEXT": "Use Virtual DIDs from Exotel, Vobiz (+91 India TRAI DLT compliant) or Twilio. SIP trunks bridge your internet AI server to mobile callers."
+  },
+  "4": {
+    "PILL_LABEL": "03. NO-CODE STACK",
+    "EYEBROW": "FAST LAUNCH PLATFORMS",
+    "HEADLINE_PART_1": "Retell, Vapi, Synthflow &",
+    "HEADLINE_PART_2": "Bolna AI for Hinglish",
+    "HEADLINE_EMPHASIS": "NO-CODE AI",
+    "SUBHEAD": "Launch client voice demos in 30 minutes without building infrastructure.",
+    "BODY_TEXT": "Retell AI & Vapi offer production-grade WebRTC streams. Bolna AI is optimized natively for Hinglish & 10+ Indian regional languages."
+  },
+  "5": {
+    "HEADER_LABEL": "04. OPEN-SOURCE",
+    "HUGE_STAT": "LiveKit",
+    "CIRCLE_WORD_1": "OPEN",
+    "CIRCLE_WORD_2": "SOURCE",
+    "HEADLINE_PART_1": "Open-Source Frameworks for",
+    "HEADLINE_PART_2": "Maximum Scale & Ownership",
+    "HEADLINE_EMPHASIS": "LIVEKIT PIPECAT",
+    "BODY_TEXT": "LiveKit Agents & Pipecat (Python) give 100% code ownership. Run real-time WebRTC streams with zero per-minute platform markups."
+  },
+  "6": {
+    "HEADER_LABEL": "COST BREAKDOWN",
+    "HUGE_STAT": "75%",
+    "HEADLINE_PART_1": "Coding Route Saves 75%",
+    "HEADLINE_PART_2": "on Per-Minute Voice Costs",
+    "HEADLINE_EMPHASIS": "COST SAVINGS",
+    "SUBHEAD": "No-Code = ₹14–₹15/min. Coding Route (Sarvam/Deepgram) = ₹3–₹4/min.",
+    "BODY_TEXT": "At 10,000 call minutes/mo, No-Code costs ₹1.5 Lakhs while the Open-Source coding route costs under ₹35,000 plus ₹500 VPS hosting."
+  },
+  "7": {
+    "HEADLINE_PART_1": "Build your custom",
+    "HEADLINE_PART_2": "AI Voice Calling Agent",
+    "HEADLINE_EMPHASIS": "VOICE AGENT",
+    "SUBHEAD": "Follow @harshchouksey or comment 'VOICE' to get our step-by-step LiveKit, n8n & SIP trunking setup blueprints."
+  }
+}

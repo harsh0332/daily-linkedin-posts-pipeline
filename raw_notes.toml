@@ -1,0 +1,798 @@
+schema_version = 1
+
+# =============================================================================
+# raw_notes.toml — the only place this pipeline holds anything TRUE about
+# Harsh's own work. The Wednesday "Build Note" pillar writes from here, and the
+# claims checker uses these entries to tell a real first-person claim from an
+# invented one. A post may state something about this work ONLY if it traces
+# back to a `detail` below.
+#
+# Every field is required. A missing field aborts the run and names the project.
+# The planner draws ONE ANGLE, never a whole project. A thesis is rate-limited
+# by `thesis_cooldown`, not consumed once.
+# =============================================================================
+
+# ── Theses ────────────────────────────────────────────────────────────────
+[[thesis]]
+id = "lead-quality-over-volume"
+statement = "More leads is the wrong goal when the bottleneck is who is answering the ad."
+
+[[thesis]]
+id = "system-not-tool"
+statement = "The tool is rarely the problem. The system around it usually is."
+
+# ── Projects ──────────────────────────────────────────────────────────────
+
+[[project]]
+id = "seed-whatsapp-agronomist"
+sector = "agriculture inputs"
+period = "2026"
+
+problem = """
+The distributor was getting more farmer messages than anyone could answer.
+Volume, not complexity. Questions kept arriving and nobody had time to work
+through them.
+"""
+
+built = """
+A WhatsApp automation on n8n. Before building it I looked at how farmers
+actually write in Hindi and what they actually ask, then designed the flow
+around that. The bot collects the farmer's situation through conversation --
+name, where the land is, how much land, whether they have water, how they
+irrigate, what problem they hit -- and holds it in memory so the rest of the
+conversation is answered against their actual situation.
+"""
+
+surprise = """
+The bot got stuck in loops. It could not parse what the farmer had said, so
+it answered the same thing again, and again. Farmers do not write clean
+queries. The fix was not a model change. It took repeated testing plus
+writing out in detail how to reply and how to work a problem through to an
+answer -- the reasoning steps, not just the tone.
+"""
+
+changed = """
+Farmers get answers without calling anyone. The bot gives the nearest
+dealer's number and address. The client's sales improved.
+"""
+
+  [[project.angle]]
+  id = "loops-not-model"
+  thesis = "system-not-tool"
+  claim = "The bot looping was not a model problem. It was a missing set of reasoning steps."
+  detail = """
+  The bot could not parse what the farmer had written, so it replied with the
+  same thing repeatedly. Fixing it meant writing out in detail how to reply to
+  a farmer and how to work a problem through to an answer, then testing
+  repeatedly. Not a different model.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "farmers-dont-type-clean"
+  claim = "Real users do not send clean queries, and that breaks flows built for clean input."
+  detail = """
+  Before building I went and looked at how farmers actually write in Hindi and
+  what they actually ask about, rather than designing around what I assumed
+  they would type.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "recommend-without-pushing"
+  claim = "A bot that pushes the product loses the conversation."
+  detail = """
+  The bot recommends the client's seed for a new crop query without pushing
+  it, matched to the farmer's location. Push too hard and the farmer stops
+  trusting the whole conversation.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "claude-meta-ads-mcp"
+sector = "own tooling"
+period = "2026-07"
+
+problem = """
+Manual ad analysis. Going into Ads Manager every time, reading creative
+performance by hand, working out what was doing what.
+"""
+
+built = """
+Connected Claude directly to the Meta Ads account through MCP. It surfaces how
+long people watch a video and where they drop off, what time people watch,
+which audience type watches, and which platform and placement -- feed, Reels,
+Facebook, Instagram Stories, WhatsApp. Setup itself was clean.
+"""
+
+surprise = """
+The first analysis was useless. Not wrong -- generic. It reported numbers back
+at me instead of telling me what was working or where money was leaking. The
+fix was not the connection, it was the question: I stopped asking for metrics
+and started asking it to analyse creative, placement, watch time and spend
+together as one picture. Same data, same tool, useful output.
+"""
+
+changed = """
+I can see which placements carry the spend and which do not, keep what works
+and cut the rest, so budget stops leaking into placements nobody watches.
+"""
+
+  [[project.angle]]
+  id = "question-not-tool"
+  thesis = "system-not-tool"
+  claim = "The first output was generic because the question was generic, not because the tool was weak."
+  detail = """
+  The first analysis reported numbers back at me. I stopped asking for metrics
+  and started asking it to analyse creative, placement, watch time and spend
+  together as one picture. Same data, same tool. The output became useful
+  immediately.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "analysis-not-decision"
+  claim = "It made the analysis easy. It did not make the decision."
+  detail = """
+  Claude shows me the data and the patterns. Switching ads off on that alone
+  is not something I am willing to do. The judgement stays mine.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "placements-i-assumed-were-good"
+  claim = "Placements I had assumed were good were taking spend without matching engagement."
+  detail = """
+  I would have kept funding them. The placement-level view is what showed the
+  gap between where the spend went and where the attention was.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "pediatric-clinic-system"
+sector = "healthcare clinic"
+period = "2026"
+
+problem = """
+A new clinic with almost no online presence. No website, not showing up
+properly on Google, no appointment system, and walk-in patients were not
+tracked anywhere. Vaccination follow-up was being done by hand.
+"""
+
+built = """
+Website first, then Google Business Profile optimisation, then SEO on what
+parents actually search rather than the clinic name. Then a WhatsApp
+appointment flow instead of an expensive booking setup -- the parent taps
+through, fills details, and the data lands in the backend whether or not they
+send a message. An admin panel for staff showing the day's appointments and
+patient data. Backend on Google Sheets with scripts, no third-party CRM, so
+the clinic keeps its own data. Follow-up and reminders run on WhatsApp Cloud
+API.
+"""
+
+surprise = """
+The WhatsApp flow was the tricky part. Booking data was arriving fine, but the
+message trigger and the data mapping were not syncing, so the data was there
+and the message either did not fire or fired against the wrong record. It was
+not an API problem. It was the flow logic and the mapping between them.
+"""
+
+changed = """
+Vaccination tracking is the real system, since vaccination is where a kids
+clinic's recurring revenue comes from. Feed a child's record in once and it
+tracks which vaccines are done, which is next, when it is due, and the prior
+history. Parents get an automatic reminder and staff see the due list without
+checking by hand.
+"""
+
+  [[project.angle]]
+  id = "data-arrived-message-didnt"
+  thesis = "system-not-tool"
+  claim = "Booking data was arriving and the message was not firing. Both ends worked; the mapping between them did not."
+  detail = """
+  The message trigger and the data mapping were not syncing. The data was
+  there and the message either did not fire or fired against the wrong record.
+  Not an API problem -- the flow logic and the backend mapping between them.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "vaccination-is-the-revenue"
+  claim = "In a kids clinic the recurring revenue is vaccination, so that is what the system should be built around."
+  detail = """
+  Feed a child's record in once and it tracks which vaccines are done, which
+  is next, when it is due, and the full prior history. Parents get a reminder
+  automatically and staff see the due list without checking anything by hand.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "sheets-not-crm"
+  claim = "A Google Sheet with scripts beat a third-party CRM here, because the clinic keeps its own data."
+  detail = """
+  No third-party CRM and no fancy software. The backend sits on Google Sheets
+  with scripts, so the clinic's data stays with the clinic.
+  """
+  formats = ["text"]
+
+[[project]]
+id = "chemical-brand-funnel"
+sector = "chemicals, B2B"
+period = "2026"
+
+problem = """
+A new chemical brand selling B2B. The website existed but needed work on
+speed, structure, forms and tracking. Ads were running on AI-made product
+videos, leads were coming in, and the leads were junk -- random enquiries,
+fake details, people with no requirement at all.
+"""
+
+built = """
+Fixed the site, then rebuilt the funnel. Qualifying questions into the form:
+which product, what business, how much requirement, and whether they are a
+dealer, contractor, builder or end customer. Leads connected to a CRM where
+the team records quality after contact, and that feedback goes back into ad
+optimisation. WhatsApp Cloud API for auto-replies and broadcasts so an
+enquiry arriving at any hour is not left unread.
+"""
+
+surprise = """
+My first assumption was that the ads were wrong. They were not -- we were
+letting anyone fill the form. But even after fixing the form I was optimising
+against nothing: a lead would come in, sales would call it, and nowhere was
+anyone recording whether it turned out to be good or worthless. The problem
+was half in the ads and half in the system, and the system half was the one
+nobody was looking at.
+"""
+
+changed = """
+The question moved from how do we get more leads to how do we get the right
+leads. Distributors were also not being signed up, so local ads targeted
+businesses selling adjacent things -- hardware stores, construction material
+shops.
+"""
+
+  [[project.angle]]
+  id = "optimising-against-nothing"
+  thesis = "lead-quality-over-volume"
+  claim = "I was optimising ads against a number nobody was recording."
+  detail = """
+  A lead came in, the sales team called it, and nowhere was anyone recording
+  whether that lead turned out to be good or worthless. So Meta never learned
+  what a good lead looked like for this business.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "lead-form-to-distributor"
+  claim = "A Meta lead form became a distribution channel."
+  detail = """
+  Local ads targeted businesses already selling adjacent things -- hardware
+  stores, construction material shops. The path became: Meta lead, sample
+  sent, they like the product, they become a distributor.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "form-as-filter"
+  claim = "The form was the problem, not the targeting."
+  detail = """
+  Qualifying questions went into the form -- which product, what business, how
+  much requirement, dealer or contractor or builder or end customer. Fewer
+  people filled it. The right people filled it.
+  """
+  formats = ["text"]
+
+[[project]]
+id = "maps-lead-scraper"
+sector = "own tooling"
+period = "2026"
+
+problem = """
+We build websites and landing pages, so we are constantly looking for
+businesses that do not have one or have a bad one. That meant searching Maps
+by hand, opening each business, checking the site, copying the data. Every
+time.
+"""
+
+built = """
+Half automated by design. One input -- a category and a city. Browser
+automation goes to Maps, searches, opens each business and pulls out name,
+location, category, whether there is a website and whether it could be
+improved. Output is a CSV. On top of that sits a website check that sorts
+them: no website is high priority, old or slow is a potential lead, already
+good is low priority.
+"""
+
+surprise = """
+It did not work first try. Browser automation kept getting detected, pages
+did not load properly, results came back incomplete, and the same business
+kept repeating across area searches. A lot of testing went into browser flow,
+waits, page loading, extraction and duplicate handling. Building the scraper
+was never the hard part. Making it reliable was.
+"""
+
+changed = """
+No opening a hundred businesses by hand. The CSV is an outreach list rather
+than a Maps dump.
+"""
+
+  [[project.angle]]
+  id = "reliable-not-built"
+  thesis = "system-not-tool"
+  claim = "Building the scraper was easy. Making it reliable took most of the work."
+  detail = """
+  Browser automation kept getting detected, pages did not load properly,
+  results came back incomplete, and the same business repeated. Testing went
+  into browser flow, waits, page loading, extraction and duplicate handling.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "half-automation-on-purpose"
+  claim = "It is half automated, and that was a choice."
+  detail = """
+  I give it one input, a category and a location, and most of the research
+  happens on its own. It is still not perfect, but even half automation saved
+  a lot of manual work.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "finding-isnt-enough"
+  claim = "Finding the business was not enough. I needed to know who I could sell to."
+  detail = """
+  A website check sits on top: no website is high priority, old or poor or
+  slow is a potential lead, already good is low priority. That is the
+  difference between a Maps dump and an outreach list.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "family-trading-business"
+sector = "building materials retail, own family business"
+period = "2026"
+
+problem = """
+Cement and sariya. Customers are karigars and contractors, not walk-in
+retail. The business was not broken, it was just running entirely the
+traditional way -- orders and conversations spread across phone, WhatsApp and
+somebody's memory. Online presence existed in name only.
+"""
+
+built = """
+A simple website, deliberately not a big project -- someone searches the
+business, they should find what we sell, which brands, how to reach us. Then
+an internal app holding customer and contractor details, enquiries,
+follow-ups and basic business information in one place. Marketing aimed at
+karigars and contractors specifically: which products are in stock, what
+offer is running, what the current scheme is.
+"""
+
+surprise = """
+We made AI videos for it, mostly as an experiment, with no idea whether a
+local audience would respond. Some performed well organically and reached
+exactly the people we wanted. Nobody makes content for a local cement and
+sariya business, and that is precisely why it worked -- there was nothing to
+compete with.
+"""
+
+changed = """
+The harder part was not the code. It was deciding what the business genuinely
+needed versus what was just a feature I could build. I could have put a full
+CRM in with fifty features and none of it would have been used, so it stayed
+basic -- the things that actually come up in a day at the shop.
+"""
+
+  [[project.angle]]
+  id = "content-where-nobody-competes"
+  claim = "We made AI videos for a cement and sariya shop, and they worked because nobody else does."
+  detail = """
+  It started as an experiment with no idea whether a local audience would
+  respond. Some performed well organically and reached exactly the people we
+  wanted. Nobody makes content for a local building materials business, so
+  there was nothing to compete with.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "five-features-not-fifty"
+  claim = "I could have built fifty features. I built five."
+  detail = """
+  The hard part was deciding what the business genuinely needed versus what
+  was just a feature I could build. A full CRM with fifty features would not
+  have been used, so it stayed basic -- the things that actually come up in a
+  day at the shop.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "customers-arent-on-google"
+  claim = "This business's customers are not searching Google. They are on site."
+  detail = """
+  Customers are karigars and contractors, not walk-in retail. So the
+  marketing went where they are -- which products are in stock, what offer is
+  running, what the current scheme is, how to reach us.
+  """
+  formats = ["text"]
+
+[[project]]
+id = "nri-research-campaigns"
+sector = "financial research services"
+period = "2026"
+
+problem = """
+A SEBI-registered research analyst firm. Ads were already running and leads
+were already coming in. The leads just were not worth much -- people filling
+a form, not people who wanted the service.
+"""
+
+built = """
+Reworked creatives, tested different angles and hooks, and built messaging
+specific to an NRI audience rather than generic investment ads. Qualifying
+questions into the form -- location, requirement, investment interest -- and
+CRM tracking of whether each lead was genuine, interested, reached by sales,
+and likely to convert, fed back into ad optimisation.
+"""
+
+surprise = """
+The CPL looked excellent. Ads Manager was telling me the campaign was
+working. Then the sales team went through the batch and could not find an
+actual customer in it. The number I was optimising towards was the wrong
+number -- I was getting better and better at buying people who were never
+going to buy.
+"""
+
+changed = """
+Optimisation moved off CPL and onto lead quality, and the enquiries got
+better.
+"""
+
+  [[project.angle]]
+  id = "cheap-leads-arent-good-leads"
+  thesis = "lead-quality-over-volume"
+  claim = "My CPL was excellent and the sales team could not find a customer in the batch."
+  detail = """
+  Ads Manager said the campaign was working. I was getting better and better
+  at buying people who were never going to buy. The number I was optimising
+  towards was the wrong number.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "nri-isnt-a-different-address"
+  claim = "An NRI audience is not a local investor with a different address."
+  detail = """
+  Different time zone, different intent, different reason for being
+  interested in an Indian market at all. So the messaging had to be built for
+  someone connected to India but not living in it, and tested against that
+  audience rather than assumed.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "research-firm-trust-funnel"
+sector = "financial research services"
+period = "2026"
+
+problem = """
+A SEBI-registered research analyst firm with the service and the expertise,
+but not reaching the right people consistently.
+"""
+
+built = """
+Creative built around trust and the actual problem rather than generic
+investment messaging. The form turned into a filter -- interest, requirement
+type, already investing or not, what help they want. Audience segmented by
+intent rather than treated as one bucket. Retargeting for people who saw the
+ad and did not fill the form. Lead status tracked as good lead, not
+interested, wrong profile, follow-up needed, or converted.
+"""
+
+surprise = """
+Trust is a distinct problem in finance. Nobody hands over their investment
+situation through a random form. So SEBI registration, the research-based
+approach and what the service actually is had to be visible in the ad and on
+the landing page -- not as a compliance footer, as the reason to keep
+reading.
+"""
+
+changed = """
+Sales stopped getting a list of phone numbers and started getting leads with
+context.
+"""
+
+  [[project.angle]]
+  id = "trust-before-enquiry"
+  claim = "In finance, credibility has to land before the enquiry, not after."
+  detail = """
+  Nobody hands over their investment situation through a random form. SEBI
+  registration, the research-based approach and what the service actually is
+  had to be visible in the ad and on the landing page as the reason to keep
+  reading. Understand the firm first, then enquire.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "nobody-converts-first-touch"
+  claim = "In finance almost nobody converts on first contact, so the funnel has to assume a second pass."
+  detail = """
+  Trust builds first and the enquiry comes later. People who saw the ad and
+  did not fill the form were not written off -- they got a second pass with
+  different messaging.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "meta-only-knows-form-submitted"
+  thesis = "lead-quality-over-volume"
+  claim = "Meta only knows a form was submitted. It does not know whether that person was a customer."
+  detail = """
+  Lead comes in, sales calls, sales marks it -- good lead, not interested,
+  wrong profile, follow-up needed, converted -- and that goes back into
+  optimisation. That gap between a submission and a customer is the whole
+  game.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "forest-retreat-positioning"
+sector = "hospitality, nature retreat"
+period = "2026"
+
+problem = """
+A hundred-acre forest with a tribal village in it, not a resort. The idea is
+that you leave the city and the pollution behind and spend a few days inside
+a forest. Simple living, local food. The right guest wants quiet.
+"""
+
+built = """
+A website whose job was to answer what a booking page usually does not -- what
+this place actually is, what it is like to stay in a forest, how guests
+connect with the tribal community, why there are no normal resort facilities,
+and who should come. Then a booking and enquiry system. Ads with messaging
+built around the experience rather than the property. Local tribal products
+showcased and sold through the site.
+"""
+
+surprise = """
+Nothing broke technically. The hard part was positioning, and it was hard
+because the easy version was right there -- I could have marketed it as
+another luxury jungle resort and enquiries would have come. They would have
+been the wrong enquiries.
+"""
+
+changed = """
+The job became filtering people out on purpose. Expansion is now on the table
+since demand has grown, but the forest is the product and the accommodation
+is part of the experience, so expansion has to stay controlled or it eats the
+reason people come.
+"""
+
+  [[project.angle]]
+  id = "filtering-people-out"
+  thesis = "lead-quality-over-volume"
+  claim = "A hundred enquiries where eighty want something else is not a successful campaign."
+  detail = """
+  I could have marketed it as another luxury jungle resort and enquiries
+  would have come. They would have been the wrong ones. The job became
+  filtering people out on purpose, with messaging built around the
+  experience rather than the property.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "expansion-eats-the-product"
+  claim = "Growing the inventory here would destroy the reason people come."
+  detail = """
+  Demand has grown and expansion is on the table, but the forest is the
+  product and the accommodation is part of the experience. Filling a hundred
+  acres with buildings would eat the thing being sold.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "tourism-past-the-property-line"
+  claim = "Tourism money should not stop at the property line."
+  detail = """
+  The local community and their way of life are part of the story on the
+  site, and their products are showcased and sold through it.
+  """
+  formats = ["text"]
+
+[[project]]
+id = "plots-interactive-masterplan"
+sector = "real estate, residential plots"
+period = "2026"
+
+problem = """
+Residential plots, and farmhouse plots on the same side. The project exists
+and the location is good -- getting the right buyer to actually turn up for a
+site visit is the whole job.
+"""
+
+built = """
+A website built as a sales tool rather than a brochure: full project
+information, location, amenities, plot sizes, master plan, availability, with
+enquiry, WhatsApp and call options throughout. The master plan is
+interactive -- the full layout with roads, garden and plots, each plot
+colour-coded available, booked or sold. Click a plot and its dimensions,
+direction and status open, with WhatsApp pre-filled as "I'm interested in
+Plot No. ___" or a direct call.
+"""
+
+surprise = """
+Getting a lead is easy. Anyone will tick interested in property. Getting that
+lead to a site visit is a completely different game -- plenty fill the form,
+sound interested on the call, and then vanish.
+"""
+
+changed = """
+Buyers know the plot they like is available before they speak to anyone, and
+the sales team stops fielding is the 1500 sq ft plot available forty times a
+week. Leads not ready yet get sorted by stage rather than discarded.
+"""
+
+  [[project.angle]]
+  id = "interactive-masterplan"
+  claim = "We made the master plan interactive instead of a static image, and it cut the repetitive sales calls."
+  detail = """
+  The full layout with roads, garden and plots, each plot colour-coded
+  available, booked or sold. Click a plot and its dimensions, direction and
+  status open, with WhatsApp pre-filled as I'm interested in Plot No. ___.
+  The buyer knows the plot is available before speaking to anyone.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "where-my-job-ends"
+  claim = "My scope ends at the site visit, deliberately."
+  detail = """
+  Ad, lead, calling, qualification, site visit. The person genuinely ready to
+  visit goes to the client's team. Showing the property, negotiating and
+  closing is theirs. They get filtered prospects instead of a hundred phone
+  numbers.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "lead-to-site-visit-gap"
+  thesis = "lead-quality-over-volume"
+  claim = "Getting a lead is easy. Getting that lead to stand on the plot is a different game."
+  detail = """
+  Plenty fill the form, sound interested on the call, and then vanish. The
+  question moved from how many leads, to how many are genuine, to how many
+  are actually ready to come and see it. Leads not ready yet get sorted by
+  stage -- checking price, checking location, discussing with family, ready
+  to visit.
+  """
+  formats = ["text", "carousel"]
+
+[[project]]
+id = "dental-local-seo"
+sector = "dental clinic"
+period = "2026"
+
+problem = """
+The clinic, the doctors and the services existed. The Google visibility did
+not. And in dental that is most of the problem, because nobody researches
+dentists for fun -- they search when their tooth hurts and pick from what is
+in front of them.
+"""
+
+built = """
+A website structured around the treatments people actually search for --
+tooth pain, root canal, implants, braces, cleaning, cosmetic work -- so both
+Google and the patient can tell what the clinic does. Then Google Business
+Profile optimisation connected to the site. The target was non-branded
+searches, not the clinic's own name.
+"""
+
+surprise = """
+It was easy to build it as a clinic's website, and that is wrong. A clinic
+says we provide dental services. A patient types my tooth hurts, what do I
+do, or where do I get a root canal done. Those are not the same language --
+the clinic describes itself, the patient describes a problem.
+"""
+
+changed = """
+Pages got built around how the patient searches rather than how the clinic
+introduces itself. Relevant people started arriving rather than just traffic.
+"""
+
+  [[project.angle]]
+  id = "clinic-language-vs-patient-language"
+  claim = "A clinic describes itself. A patient describes a problem. Those are different searches."
+  detail = """
+  The clinic says we provide dental services. The patient types my tooth
+  hurts, what do I do, or where do I get a root canal done. Pages got built
+  around how the patient searches, not around how the clinic introduces
+  itself. That one shift is the whole SEO job.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "ranking-for-your-own-name"
+  claim = "Ranking for your own brand name proves nothing."
+  detail = """
+  Anyone searching the clinic's name already knows the clinic and was always
+  going to find it. The goal was the searches where the clinic is not
+  mentioned at all -- dentist near me, root canal, dental implant.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "search-beats-ads-locally"
+  claim = "For a local service, being present in the search beats showing an ad later."
+  detail = """
+  The most valuable local lead is the person already searching for a dentist.
+  They have the problem, they have the intent, and they are deciding right
+  now.
+  """
+  formats = ["text"]
+
+[[project]]
+id = "high-ticket-land-parcel"
+sector = "real estate, land"
+period = "2026"
+
+problem = """
+A large land parcel that needed selling. Not a residential plot -- the ticket
+size means most people who see the ad cannot be the buyer, and that changes
+everything about how you run it.
+"""
+
+built = """
+Campaigns tested and optimised toward people who could actually afford and
+use the parcel, not broad targeting. Messaging tested across the parcel's
+different possible uses -- ashram, spiritual centre, retreat, large private
+residence, investment, larger development. The form turned into a filter:
+budget range, purpose, requirement type, purchase timeline. WhatsApp
+automation for initial information, follow-up and nurturing after capture.
+"""
+
+surprise = """
+Normal lead generation logic simply does not work at this price. Leads come,
+that is easy, but interested from someone with no budget, no purpose and no
+timeline is not information. A cheap CPL makes the campaign look excellent
+right up until the sales team calls the list and finds nobody who could write
+the cheque.
+"""
+
+changed = """
+Sales stopped getting a lead came in, call them, and started getting this
+person wants it for a specific purpose with a rough budget attached.
+"""
+
+  [[project.angle]]
+  id = "one-property-six-buyers"
+  claim = "One property, six different reasons to buy it, so one message was never going to work."
+  detail = """
+  A buyer might want it as an ashram, a spiritual centre, a retreat, a large
+  private residence, an investment or a bigger development. The person
+  looking for an ashram site and the person looking for an investment are not
+  the same person and will not respond to the same ad.
+  """
+  formats = ["text", "carousel"]
+
+  [[project.angle]]
+  id = "nobody-buys-off-one-ad"
+  claim = "Nobody sees an ad once and buys a crore-plus property."
+  detail = """
+  They look, they visit the site, they check where it is, they discuss it
+  with family, then they call, then they visit. The funnel has to be built
+  around that journey rather than around a single form fill.
+  """
+  formats = ["text"]
+
+  [[project.angle]]
+  id = "not-every-lead-is-a-customer"
+  thesis = "lead-quality-over-volume"
+  claim = "At this ticket size most leads structurally cannot be customers."
+  detail = """
+  Interested from someone with no budget, no purpose and no timeline is not
+  information. The form became a filter -- budget range, purpose, requirement
+  type, purchase timeline -- and optimisation moved onto whether the person
+  enquiring is capable of buying.
+  """
+  formats = ["text", "carousel"]

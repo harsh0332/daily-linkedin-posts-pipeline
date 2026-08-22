@@ -1,0 +1,14 @@
+{
+  "name": "daily-linkedin-posts-pipeline",
+  "version": "2.0.0",
+  "description": "Autonomous Daily LinkedIn Content & Direct API Publishing Pipeline",
+  "main": "api_scheduler.cjs",
+  "scripts": {
+    "post-today": "node run_daily_cloud_publish.cjs",
+    "preflight": "python3 preflight.py",
+    "build-carousel": "node build_carousel_today.cjs"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

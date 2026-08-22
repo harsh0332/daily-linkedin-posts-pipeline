@@ -1,0 +1,117 @@
+{
+  "ad_id": "1255301093350351",
+  "page_name": "Wakefit Solutions",
+  "page_id": "1414949458807946",
+  "page_profile_pic": "https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.35426-6/649337484_817234863990549_1911338442216991426_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PqbO6Ka59OUQ7kNvwG3vhGW&_nc_oc=AdqLp--f-fypZxZHv5Y5sWXtxBBeQD_3ik00fNCPqCT0W7ySmyGu2fMPPd1XYa8g_Zg&_nc_zt=14&_nc_ht=scontent.fjlr2-1.fna&_nc_gid=3ZmimL8QeJih_1r8Oi6suA&_nc_ss=7b289&oh=00_AQGJg8AY0CwLh_XV6KGmwqtZcCpnWyZSuMxtjqa1LpGaQg&oe=6A8E1FC7",
+  "page_url": "https://www.facebook.com/wakefitco/",
+  "page_like_count": 153766,
+  "page_categories": [
+    "Furniture"
+  ],
+  "title": "{{product.name}}",
+  "body": "Say Goodbye to Back Pain – Get the Best Office Chair! Work smarter, not harder! Improve posture with our ergonomic chairs.",
+  "caption": "wakefit.co",
+  "link_description": "{{product.description}}",
+  "link_url": "https://www.wakefit.co/office-chairs?utm_source=meta&utm_medium=asc&utm_campaign={{campaign.id}}&utm_content={{ad.id}}",
+  "cta_text": "Shop now",
+  "cta_type": "SHOP_NOW",
+  "display_format": "DCO",
+  "video_hd_url": null,
+  "video_sd_url": null,
+  "image_url": null,
+  "preview_image_url": null,
+  "video_count": 0,
+  "image_count": 0,
+  "cards": [
+    {
+      "title": "Say Goodbye to Back Pain – Get the Best Office Chair!",
+      "body": "Work smarter, not harder! Improve posture with our ergonomic chairs.",
+      "link_url": "https://www.wakefit.co/office-chairs?utm_source=meta&utm_medium=asc&utm_campaign={{campaign.id}}&utm_content={{ad.id}}",
+      "cta_text": "Shop Now",
+      "image_url": "https://scontent.fjlr2-2.fna.fbcdn.net/v/t39.35426-6/649226509_1702126574468479_7225273081900929177_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fd_ApjXzdB4Q7kNvwGBe_Hp&_nc_oc=Adp5vynHSfiogSIIWtBnWagxuwZetSdaalUX_us9_OgLQUgY5ANs28lOsFQDPFE5_Pg&_nc_zt=14&_nc_ht=scontent.fjlr2-2.fna&_nc_gid=3ZmimL8QeJih_1r8Oi6suA&_nc_ss=7b289&oh=00_AQEkdnLJut4_if2upnA7VS_W-lr4Q2ZV-cBh5OGC-aYkTQ&oe=6A8E4050",
+      "video_hd_url": null
+    },
+    {
+      "title": "Say Goodbye to Back Pain – Get the Best Office Chair!",
+      "body": "Work smarter, not harder! Improve posture with our ergonomic chairs.",
+      "link_url": "https://www.wakefit.co/office-chairs?utm_source=meta&utm_medium=asc&utm_campaign={{campaign.id}}&utm_content={{ad.id}}",
+      "cta_text": "Shop Now",
+      "image_url": "https://scontent.fjlr2-3.fna.fbcdn.net/v/t39.35426-6/649340735_26756923427233110_1293304670019292567_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IQ1JUobBs8AQ7kNvwHf98yJ&_nc_oc=AdpdrFzRyeWPRtgaLAsiDugIUBONX4eMGMXcKwCOzt5iRAeF72UbAUib-gv0pWNgRtg&_nc_zt=14&_nc_ht=scontent.fjlr2-3.fna&_nc_gid=3ZmimL8QeJih_1r8Oi6suA&_nc_ss=7b289&oh=00_AQGs1ki5E_Qx5vweV_yj2oaXu9FCzxtNI__lig0i9EV3GQ&oe=6A8E1D0B",
+      "video_hd_url": null
+    }
+  ],
+  "start_date_ts": 1773817200,
+  "end_date_ts": 1787295600,
+  "is_active": true,
+  "publisher_platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "MESSENGER",
+    "THREADS"
+  ],
+  "total_active_time": null,
+  "collation_count": 1,
+  "categories": [
+    "UNKNOWN"
+  ],
+  "reach_estimate": null,
+  "spend": null,
+  "currency": null,
+  "impressions_text": null,
+  "video_duration_s": null,
+  "creative_asset_age_days": null,
+  "creative_asset_id": null,
+  "source_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1255301093350351&is_targeted_country=false&media_type=all&search_type=keyword_unordered",
+  "days_running": 156,
+  "verdict": "Working",
+  "stage": "Winning",
+  "why_it_works": [
+    {
+      "ok": true,
+      "text": "Still running today"
+    },
+    {
+      "ok": true,
+      "text": "156 days live — running over 3 months — proven"
+    },
+    {
+      "ok": true,
+      "text": "Delivering on 4 placements — broad budget, likely Advantage+"
+    },
+    {
+      "ok": true,
+      "text": "'Shop now' is a closing CTA — bottom of funnel"
+    },
+    {
+      "ok": true,
+      "text": "DCO ad — Meta is assembling the creative, a sign of a mature setup"
+    },
+    {
+      "ok": true,
+      "text": "Landing page carries UTM tracking — mature setup"
+    }
+  ],
+  "watch_outs": [
+    "Body copy only 17 chars — thin on context",
+    "Opening line has no number, price or question to grab on"
+  ],
+  "score_meta": {
+    "score": 64,
+    "tone": "amber",
+    "proof_score": 45,
+    "craft_score": 19,
+    "confidence": "High",
+    "steal": [
+      "Hook to model: \"{{product\"",
+      "They use 'Shop now' — closing straight from the feed, no warm-up step",
+      "Placements are wide open, not hand-picked — budget is going through Advantage+",
+      "Page has 153,766 followers — brand recall is doing part of the work, expect weaker numbers cold"
+    ],
+    "disclaimer": "Meta does not publish spend, impressions or ROAS for commercial ads. This score is inferred from public delivery data only."
+  },
+  "body_template": "{{product.brand}}",
+  "formats": [
+    "text",
+    "carousel"
+  ]
+}

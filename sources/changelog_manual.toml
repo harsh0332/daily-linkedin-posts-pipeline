@@ -1,0 +1,28 @@
+# Manual changelog entries for the Friday pillar.
+# Meta newsroom / Meta for Business and the WhatsApp Cloud API changelog have no
+# stable machine-readable feed. Paste entries here with their real date.
+# Every field below is required; a missing date aborts the fetch.
+
+[[entry]]
+id     = "meta-capi-gateway-diagnostics-2026-08"
+source = "Meta for Business"
+title  = "Meta Conversions API Gateway Auto-Diagnostics & Signal Quality Scoring"
+body   = """
+* Real-time Event Match Quality (EMQ) auto-diagnostics inside the CAPI Gateway dashboard
+* Instant parameter drop-off alerts for customer data parameters (fbp, fbc, hashed email, and IP address)
+* Automatic root-cause detection when server-side events fail to fire before ad set delivery is throttled
+* Prevents silent attribution leakage when landing page scripts fail or cookies are blocked
+"""
+date   = "2026-08-18"
+
+[[entry]]
+id     = "wa-cloud-api-lead-forms-2026-08"
+source = "WhatsApp Cloud API"
+title  = "Native Flow Forms & 1-Click Verification inside WhatsApp Cloud API"
+body   = """
+* Native flow templates allowing businesses to deploy structured multi-step qualification forms directly within WhatsApp chat
+* Real-time CRM syncing and automated sales agent assignment within sub-60-second response windows
+* One-click OTP phone number validation eliminating fake and mistyped leads at point of entry
+* Automated webhook triggers for instant lead routing to sales reps based on form responses
+"""
+date   = "2026-08-15"

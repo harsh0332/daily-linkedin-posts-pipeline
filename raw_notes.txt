@@ -1,0 +1,4 @@
+# Drop any quick bullet points or client win notes here before running the pipeline.
+# Example:
+# - Scaled a D2C fashion brand past 25L/mo using n8n WhatsApp abandoned cart flows.
+# - Fixed lead response lag for a B2B SaaS client, reducing cost-per-qualified-lead by 35%.

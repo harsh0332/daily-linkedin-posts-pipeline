@@ -1,0 +1,103 @@
+# Phase 3 — Benchmark pillar (Tuesday).
+#
+# THE HONEST ANSWER: this pillar is MANUAL. None of the allowlisted publishers
+# offers a stable machine-readable feed, and a fabricated-but-cited source is
+# worse than no figure — Phase 2 already caught "Socialbakers 2026", which may
+# not exist. So figures are pasted in here by hand, with the source and year,
+# and the loader refuses anything whose source is not on the allowlist.
+#
+# `year` IS THE YEAR THE DATA WAS GATHERED, NOT THE YEAR THE PAGE WAS EDITED.
+# WordStream's page header says "Last Updated: June 30, 2026", but its own Data
+# Sources section states the figures come from 256 US accounts advertising
+# between November 2016 and January 2017. That distinction is the entire point
+# of this field: a post must never present old data as current.
+#
+# Set used = true once a figure has been posted, so it is not reused.
+
+allowed_sources = [
+  "WordStream", "LocaliQ", "Databox", "Triple Whale",
+  "Meta newsroom", "Meta for Business", "Statista", "Meta Ad Library",
+]
+
+[[benchmark]]
+id      = "wordstream-fb-cvr-all-industries"
+source  = "WordStream"
+year    = 2017
+figure  = "9.21%"
+metric  = "median Facebook Ads conversion rate across all industries, US advertisers, Nov 2016 to Jan 2017 sample"
+context = """
+This is the number most people still quote as a Facebook benchmark, and it is
+from a 2016-17 sample of 256 US accounts. Anyone using it to judge a 2026
+account is comparing against a different platform. Worth checking what your own
+account's baseline actually is before deciding you are underperforming.
+"""
+formats = ["text", "carousel"]
+used    = false
+
+[[benchmark]]
+id      = "wordstream-fb-cpc-all-industries"
+source  = "WordStream"
+year    = 2017
+figure  = "$1.72"
+metric  = "median Facebook Ads cost per click across all industries, US advertisers, Nov 2016 to Jan 2017 sample"
+context = """
+Useful only as a historical marker. CPC has moved substantially since this
+sample was taken, so the number is worth knowing as a reference point rather
+than as a target to hit.
+"""
+formats = ["text"]
+used    = false
+
+[[benchmark]]
+id      = "localiq-fb-cpl-leadgen"
+source  = "LocaliQ"
+year    = 2024
+figure  = "$27.66"
+metric  = "median Facebook Ads Cost Per Lead across 20+ industries for lead generation campaigns"
+context = """
+Averaged across 20+ industries, the median CPL on Facebook lead campaigns is $27.66.
+Many advertisers benchmark against general traffic CPCs and wonder why their lead costs
+are higher; lead campaigns optimize for completed form fills, resulting in higher intent but higher base cost.
+"""
+formats = ["text", "carousel"]
+used    = false
+
+[[benchmark]]
+id      = "localiq-fb-cpc-traffic"
+source  = "LocaliQ"
+year    = 2024
+figure  = "$0.70"
+metric  = "median Facebook Ads Cost Per Click for website traffic campaigns across 20+ industries"
+context = """
+Traffic campaigns maintain an average $0.70 CPC across broad industries. However, cheap clicks
+rarely equate to qualified revenue without proper in-app qualification or Conversions API gating.
+"""
+formats = ["text"]
+used    = false
+
+[[benchmark]]
+id      = "localiq-fb-cvr-leadgen"
+source  = "LocaliQ"
+year    = 2024
+figure  = "7.72%"
+metric  = "median Facebook Ads Conversion Rate for lead generation campaigns across 20+ industries"
+context = """
+The cross-industry median conversion rate for Facebook lead campaigns stands at 7.72%.
+Accounts utilizing higher-intent forms with custom qualification dropdowns frequently
+see higher downstream sales close rates despite tighter top-of-funnel lead numbers.
+"""
+formats = ["text", "carousel"]
+used    = false
+
+[[benchmark]]
+id      = "localiq-fb-ctr-leadgen"
+source  = "LocaliQ"
+year    = 2024
+figure  = "2.59%"
+metric  = "median Facebook Ads Click-Through Rate for lead generation campaigns across 20+ industries"
+context = """
+Lead campaigns see a median 2.59% CTR, significantly outperforming static brand awareness ads.
+Combining direct callout hooks with clear value propositions is key to staying above this median.
+"""
+formats = ["text"]
+used    = false

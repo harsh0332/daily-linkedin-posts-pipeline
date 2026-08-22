@@ -1,0 +1,43 @@
+[
+  {
+    "post": "2. TEXT 1",
+    "wording": [],
+    "questions": [
+      "Have you seen CPC changes in your industry?"
+    ],
+    "soft_outcomes": []
+  },
+  {
+    "post": "3. CAROUSEL 2",
+    "wording": [],
+    "questions": [
+      "Ever seen a bot derail a conversation by pushing too hard?"
+    ],
+    "soft_outcomes": [
+      {
+        "found": "improved",
+        "line": "Sales improved."
+      },
+      {
+        "found": "boosting",
+        "line": "Now, the bot delivers tailored responses and nearby dealer info directly to farmers, boosting client sales."
+      }
+    ]
+  },
+  {
+    "post": "4. TEXT 2",
+    "wording": [],
+    "questions": [
+      "What sectors do you think ChatGPT ads should target for effectiveness?"
+    ],
+    "soft_outcomes": []
+  },
+  {
+    "post": "5. CAROUSEL 3",
+    "wording": [],
+    "questions": [
+      "Agree or disagree with this update?"
+    ],
+    "soft_outcomes": []
+  }
+]

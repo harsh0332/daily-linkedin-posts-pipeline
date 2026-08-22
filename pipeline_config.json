@@ -1,0 +1,97 @@
+{
+  "_comment": "Single source of truth for cadence, format mix and posting slots. Read at runtime by generate_all_content.py, schedule_all_posts.cjs, send_to_slack.py, build_carousel_today.cjs and cap_infographic_today.js. Do not re-declare these values anywhere else.",
+  "llm": {
+    "_comment": "Provider config for the content generator. base_url, model and api_key_env are the only places these are declared; change provider or model here, never in code. api_key_env names the .env variable holding the key - the value is never read into config, logged or printed.",
+    "base_url": "https://api.meshapi.ai/v1",
+    "model": "openai/gpt-4o",
+    "api_key_env": "MESH_API_KEY"
+  },
+  "adspy": {
+    "_comment": "Where the ad-teardown pool is topped up from. The pipeline NEVER calls this at run time - it only reads sources/ad_teardowns/*.json. add_teardown.py starts this server if it is not already listening. 127.0.0.1 rather than localhost: on some setups localhost resolves to ::1 first and the server binds IPv4 only.",
+    "base_url": "http://127.0.0.1:8000",
+    "extract_path": "/api/extract"
+  },
+  "posts_per_batch": 5,
+  "batch_horizon_days": 7,
+  "weekdays_only": true,
+  "format_order": [
+    "carousel",
+    "infographic",
+    "poll",
+    "text"
+  ],
+  "format_mix": {
+    "carousel": 3,
+    "infographic": 0,
+    "poll": 0,
+    "text": 2
+  },
+  "time_slots": [
+    "9:30 AM"
+  ],
+  "timezone": "Asia/Kolkata",
+  "brand_color": "#5E6AD2",
+  "generate_performance_posts": false,
+  "pillars": [
+    {
+      "day": "Mon",
+      "id": "ad-teardown",
+      "source": "ad_teardown"
+    },
+    {
+      "day": "Tue",
+      "id": "benchmark",
+      "source": "benchmark"
+    },
+    {
+      "day": "Wed",
+      "id": "build-note",
+      "source": "raw_notes"
+    },
+    {
+      "day": "Thu",
+      "id": "community-question",
+      "source": "reddit_questions"
+    },
+    {
+      "day": "Fri",
+      "id": "update-or-hot-take",
+      "source": "changelog"
+    }
+  ],
+  "thesis_cooldown": 4,
+  "source_max_age_days": 14,
+  "reddit_subreddits": [
+    "PPC",
+    "facebookads",
+    "EntrepreneurRideAlong",
+    "IndianStartups",
+    "smallbusiness"
+  ],
+  "reddit_min_items": 15,
+  "reddit_per_sub_limit": 25,
+  "reddit_delay_seconds": 8,
+  "_rationale": [
+    "Cut from ~3.7 posts/day to 1/weekday. Median was 51 impressions/post with ~half of posts getting zero engagement; posts were competing with each other.",
+    "polls cut: 8 polls produced 9 reactions and 2 comments total - high impressions, almost no engagement.",
+    "infographics cut: lowest-reach format in the account's own data.",
+    "document carousels kept: strongest performing format.",
+    "A count of 0 makes a format unused, not unavailable. Its code path is intact and returns immediately.",
+    "generate_performance_posts=false: the 5 report-driven posts were generated every run, written to performance_posts_<date>.txt, and read by nothing. They cost ~40% of the run and a single failure could abort the whole batch after topics were burned. The block is intact behind this flag, not deleted.",
+    "Phase 3: pillars replace 'whatever Reddit surfaced'. Audience was 18% IT services and 15% advertising - peers, not buyers - which followed directly from sourcing topics out of practitioner subreddits.",
+    "source_max_age_days=14: anything fed to the planner as current carries its own date and is refused past this. Two weeks is the point where a platform changelog stops being an update.",
+    "Pillar and format are independent axes. A pillar is a SOURCE; the format comes from format_mix. Each source item declares which formats it can carry and the resolver fails loudly if none matches.",
+    "reddit_per_sub_limit=25, reddit_delay_seconds=8: the community pillar uses exactly ONE question per run. Fetching 150 items to use 1, while getting 429-ed on r/facebookads, was the wrong trade. 429s now back off 30s/60s/90s rather than 4s."
+  ],
+  "_rules": [
+    "sum(format_mix) must equal posts_per_batch",
+    "batch_horizon_days * len(time_slots) must be >= posts_per_batch",
+    "with weekdays_only, a 7-day window always contains exactly 5 weekdays",
+    "format_order must list every key present in format_mix",
+    "slots are filled day by day, in time_slots order, until posts_per_batch is reached",
+    "post sequence is a round-robin over format_order, skipping formats whose count is 0 or exhausted",
+    "len(pillars) must equal posts_per_batch",
+    "every pillar.source must be a source the resolver knows",
+    "a pillar that yields nothing aborts the run - it never silently swaps to another pillar"
+  ]
+}

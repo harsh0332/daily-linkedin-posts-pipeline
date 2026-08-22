@@ -1,0 +1,84 @@
+# ============================================================
+# SECRETS — never commit these
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# LinkedIn browser session (live session cookies — treat as a credential)
+chrome-session/
+
+# ============================================================
+# Dependencies
+# ============================================================
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# ============================================================
+# Local state backups (Task 2) — snapshots, not source of truth
+# ============================================================
+state-backups/
+
+# ============================================================
+# Generated output — carousels, infographics, screenshots
+# ============================================================
+carousel-routine/output/
+carousel-routine/temp/
+slack_downloads/
+screenshots/
+
+# Generated infographic HTML + PNG (the template itself IS tracked)
+linkedin-infographic-*.png
+linkedin-infographic-*.html
+!linkedin-infographic-template.html
+
+# Generated carousel / post PDFs
+*_carousel.pdf
+linkedin_posts_*.pdf
+
+# Crash + debug screenshots
+error_screenshot.png
+urgent_error_screenshot.png
+clinic_image_*.png
+reddit_debug_body.html
+
+# ============================================================
+# Manual binary assets for one-off posts — git cannot diff PNGs
+# and they would sit in history permanently
+# ============================================================
+user_uploads/
+fresh_clinic_uploads/
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+
+# ============================================================
+# OS noise
+# ============================================================
+.DS_Store
+
+# ============================================================
+# EXPLICITLY TRACKED (do not add these to the ignore list):
+#   pipeline_state.json        — scheduling watermark
+#   used_topics.json           — de-duplication memory
+#   schedule_checkpoint.json   — per-post checkpoint (Task 5)
+#   linkedin_posts_today.txt   — scheduler input
+#   linkedin_posts_*.txt       — generated post archives
+#   performance_posts_*.txt    — generated performance posts
+#   carousel_data*.json        — slide copy
+#   infographic_data*.json     — chart data
+#   reddit_data.json           — fetch cache
+#   ai_news_data.json          — fetch cache
+# ============================================================
+
+# LinkedIn UI diagnostics output (screenshots + DOM dumps)
+diag/
+linkedin_api_credentials.json
+
+# node_modules lives OUTSIDE iCloud and is symlinked in; never commit the link
+carousel-routine/node_modules

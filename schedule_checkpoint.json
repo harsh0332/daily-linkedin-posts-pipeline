@@ -1,0 +1,40 @@
+{
+  "status": "in_progress",
+  "batch_start_date": "08/31/2026",
+  "started_at": "2026-08-21T09:54:26.992Z",
+  "source_file": "linkedin_posts_today.txt",
+  "total_posts": 5,
+  "planned": [
+    {
+      "id": 1,
+      "type": "carousel",
+      "date": "08/31/2026",
+      "time": "9:30 AM"
+    },
+    {
+      "id": 2,
+      "type": "regular",
+      "date": "09/01/2026",
+      "time": "9:30 AM"
+    },
+    {
+      "id": 3,
+      "type": "carousel",
+      "date": "09/02/2026",
+      "time": "9:30 AM"
+    },
+    {
+      "id": 4,
+      "type": "regular",
+      "date": "09/03/2026",
+      "time": "9:30 AM"
+    },
+    {
+      "id": 5,
+      "type": "regular",
+      "date": "09/04/2026",
+      "time": "9:30 AM"
+    }
+  ],
+  "completed": []
+}

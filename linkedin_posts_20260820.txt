@@ -1,0 +1,76 @@
+==================================================
+1. CAROUSEL 1
+==================================================
+Hook: Flipkart's Everyday Essentials Ad Strategy
+
+Slide 1:  
+Flipkart's Everyday Essentials Ad Strategy
+
+Slide 2:  
+The Meta Ad Library shows this creative has been running 34 days as of 2026. I read that as the advertiser choosing to keep paying for it.
+
+Slide 3:  
+This ad includes six creative assets in one carousel, effectively showcasing a wide range of categories in a single viewing.
+
+Slide 4:  
+Running in five placements, it's designed for visibility across multiple touchpoints, from newsfeeds to stories.
+
+Slide 5:  
+The body copy is concise at 202 characters, promising everyday essentials with steep percentage discounts, no prices or numbers needed to entice.
+
+Slide 6:  
+'Buy now' serves as the closing call to action, directly encouraging immediate purchase, a classic retail move.
+
+Slide 7:  
+I'd watch the opening line; it lacks a number, a price, or an immediate hook, a risky choice when trying to capture attention.
+
+CAROUSEL CAPTION:  
+In our ad teardown, Flipkart's strategy brings six assets together in a smooth carousel, optimized for five placements. The Meta Ad Library shows this ad has been running 34 days as of 2026, possibly due to its clear call to action and varied offerings. Curious how holistic ad setups can enhance your campaigns? Let's chat; drop me a message!
+
+==================================================
+2. TEXT 1
+==================================================
+Most people quoting a Facebook Ads conversion benchmark are quoting 2017. WordStream's 2017 sample put the median Facebook Ads conversion rate across all industries, for US advertisers, at 9.21%, from data spanning November 2016 to January 2017. This figure is still widely used by many as a benchmark. 
+
+But if you're using this to judge your 2026 account, remember: it's a different platform. Before deciding if you're underperforming, it's worth checking your own account's baseline today. 
+
+Want to find out what current benchmarks would look like for your business? DM me and I'll help you dive into the numbers!
+
+==================================================
+3. CAROUSEL 2
+==================================================
+Hook: A bot that loses the conversation
+
+Slide 1:  
+A bot that loses the conversation
+
+Slide 2:  
+A distributor in agriculture faced a challenge. Their team was overwhelmed with more farmer messages than they could handle. Questions bombarded the inbox faster than anyone could reply.
+
+Slide 3:  
+I built a WhatsApp automation on n8n. It understood Hindi queries and gathered context, location, land size, and irrigation methods. Real questions need real understanding.
+
+Slide 4:  
+Unexpectedly, the bot got caught in reply loops. It struggled with unstructured inputs. This wasn’t about fancy algorithms; it needed refined responses and clear reasoning paths.
+
+Slide 5:  
+With this change, farmers received instant answers. The bot shared local dealer details effortlessly. Hands-free support meant more sales for the client.
+
+Slide 6:  
+The secret wasn’t in hard selling. The bot recommended seeds based on location data, building trust without overt promotion.
+
+Slide 7:  
+The lesson? Avoid pushing products. Understand needs to build genuine, trusted conversations.
+
+CAROUSEL CAPTION:  
+In the world of automation, the right touch can lead to transformative customer interactions. I created a WhatsApp bot on n8n that understood farmers' needs in their language. With precise responses and contextual understanding, it turned inquiries into trusted recommendations. Curious to see how this applies to your business? Let's have a chat.
+
+==================================================
+5. TEXT 3
+==================================================
+n8n's latest update, n8n@2.34.5, brings a change that could be vital for production environments handling complex networking scenarios. The most notable fix applies TLS options per hop when requests transit through a proxy. 
+
+I think this matters because, previously, TLS settings applied only at the network's edge could miss additional proxies along the path, potentially leaving later hops unsecured. For businesses leveraging multiple proxies, this update ensures consistent security measures are maintained throughout the entire request journey. 
+
+If you're running n8n in a production setting, consider how this change might enhance your data security. If you're curious about how this update could impact your workflow, let's discuss.
+

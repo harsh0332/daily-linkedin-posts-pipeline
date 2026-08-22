@@ -1,0 +1,27 @@
+{
+  "title_main": "Unlock the secrets behind high-stakes",
+  "title_span": "Meta campaign returns",
+  "subtitle": "This visual breakdown takes you through six months of aggressive Meta ad strategies, dissecting investments against returns.",
+  "badge": "\ud83d\udd0d META CAMPAIGN ANALYSIS",
+  "date_label": "2023 Meta Ad Report",
+  "takeaway_num": "67% ROAS",
+  "takeaway_text": "Strategy A led the pack, achieving a 67% ROAS in just three months.",
+  "source": "Source: Meta Campaign Data | @harshchouksey",
+  "bars": [
+    {
+      "label": "Strategy A - 67% ROAS",
+      "value": "67%",
+      "color": "#1F77B4"
+    },
+    {
+      "label": "Strategy C - 53% ROI",
+      "value": "53%",
+      "color": "#FF7F0E"
+    },
+    {
+      "label": "D2C Benchmark - 40% Avg ROI",
+      "value": "40%",
+      "color": "#2CA02C"
+    }
+  ]
+}

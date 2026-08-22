@@ -1,0 +1,61 @@
+{
+  "1": {
+    "HEADER_LABEL": "GOOGLE AI INTEGRATIONS",
+    "HOOK_PART_1": "Gemini Free AI",
+    "HOOK_PART_2": "Integrations for Business",
+    "HOOK_EMPHASIS": "GEMINI INTEGRATIONS",
+    "SUBTITLE": "How to connect Google Business Profile, Analytics, Google Ads & Gmail with Gemini AI to automate business operations."
+  },
+  "2": {
+    "PILL_LABEL": "01. LOCAL GROWTH",
+    "EYEBROW": "GOOGLE BUSINESS PROFILE",
+    "HEADLINE_PART_1": "Gemini x Business Profile",
+    "HEADLINE_PART_2": "Automate Local SEO & Reviews",
+    "HEADLINE_EMPHASIS": "LOCAL SEO",
+    "SUBHEAD": "Scale local search rankings without manual daily updates.",
+    "BODY_TEXT": "Gemini AI analyzes local customer reviews, drafts personalized replies in seconds, and optimizes GMB profile posts for local Bhopal & regional search keywords."
+  },
+  "3": {
+    "PILL_LABEL": "02. AI INSIGHTS",
+    "EYEBROW": "GOOGLE ANALYTICS 4",
+    "HEADLINE_PART_1": "Gemini x Google Analytics",
+    "HEADLINE_PART_2": "Instant Revenue & Traffic Analysis",
+    "HEADLINE_EMPHASIS": "ANALYTICS",
+    "SUBHEAD": "No more digging through complex report dashboards.",
+    "BODY_TEXT": "Gemini explains traffic drops in plain English, identifies high-ROI acquisition channels, and predicts weekly customer conversion trends."
+  },
+  "4": {
+    "HEADER_LABEL": "03. AD SCALING",
+    "HUGE_STAT": "1-Click",
+    "CIRCLE_WORD_1": "AD",
+    "CIRCLE_WORD_2": "BUILD",
+    "HEADLINE_PART_1": "Gemini x Google Ads",
+    "HEADLINE_PART_2": "Scale Campaigns Faster",
+    "HEADLINE_EMPHASIS": "GOOGLE ADS",
+    "BODY_TEXT": "Describe your business offer to build campaigns instantly. Gemini flags weak keywords, fixes budget leaks, and suggests sitelink creative assets."
+  },
+  "5": {
+    "PILL_LABEL": "04. INBOX OPS",
+    "EYEBROW": "GMAIL INTEGRATION",
+    "HEADLINE_PART_1": "Gemini x Gmail",
+    "HEADLINE_PART_2": "Boost Client Inbox Productivity",
+    "HEADLINE_EMPHASIS": "GMAIL AI",
+    "SUBHEAD": "Summarize long client email threads instantly.",
+    "BODY_TEXT": "Extract project deadlines, client budget approvals, and pending tasks from thread histories automatically without reading 50 emails."
+  },
+  "6": {
+    "HEADER_LABEL": "THE LESSON",
+    "HUGE_STAT": "85%",
+    "HEADLINE_PART_1": "Native AI workflows beat",
+    "HEADLINE_PART_2": "manual agency operations",
+    "HEADLINE_EMPHASIS": "NATIVE AI",
+    "SUBHEAD": "Connecting AI directly to your Google tools saves 10+ hours a week.",
+    "BODY_TEXT": "Stop manually copying data into spreadsheets. Let Gemini pull insights & draft assets while you focus on high-converting client strategy."
+  },
+  "7": {
+    "HEADLINE_PART_1": "Automate your business",
+    "HEADLINE_PART_2": "with Google Gemini AI",
+    "HEADLINE_EMPHASIS": "GEMINI AI",
+    "SUBHEAD": "Follow @harshchouksey or DM 'GOOGLE' to get our free Gemini Business Automation Blueprint."
+  }
+}

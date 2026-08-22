@@ -1,0 +1,65 @@
+{
+  "1": {
+    "HEADER_LABEL": "PROXY SECURITY UPDATE",
+    "HOOK_PART_1": "Enhancing proxy security",
+    "HOOK_PART_2": "with specific TLS settings",
+    "HOOK_EMPHASIS": "TLS SETTINGS",
+    "SUBTITLE": "The latest n8n update prioritizes tailored TLS options for each hop, shielding data as it navigates through proxies."
+  },
+  "2": {
+    "PILL_LABEL": "NEW IN N8N",
+    "EYEBROW": "VERSION UPDATE",
+    "HEADLINE_PART_1": "n8n@2.34.5 applies",
+    "HEADLINE_PART_2": "TLS options per hop",
+    "HEADLINE_EMPHASIS": "PER HOP",
+    "SUBHEAD": "This update brings crucial security enhancements for workflows involving proxy servers.",
+    "BODY_TEXT": "Each hop now benefits from unique TLS configurations, offering seamless security across proxy transmissions."
+  },
+  "3": {
+    "HEADER_LABEL": "SECURE EVERY HOP",
+    "HUGE_STAT": "Multi-Hop",
+    "CIRCLE_WORD_1": "TLS",
+    "CIRCLE_WORD_2": "UPDATE",
+    "HEADLINE_PART_1": "This release ensures",
+    "HEADLINE_PART_2": "TLS is configured per hop",
+    "HEADLINE_EMPHASIS": "PER HOP",
+    "BODY_TEXT": "Gain confidence in your data's journey through multiple proxy levels with individualized TLS settings."
+  },
+  "4": {
+    "PILL_LABEL": "SECURE WORKFLOWS",
+    "EYEBROW": "DATA PROTECTION",
+    "HEADLINE_PART_1": "Imagine n8n workflows",
+    "HEADLINE_PART_2": "relying on multiple proxies",
+    "HEADLINE_EMPHASIS": "MULTIPLE PROXIES",
+    "SUBHEAD": "Ensure secure data transmission with TLS protecting each step of the way.",
+    "BODY_TEXT": "For workflows needing diverse proxy setups, individualized TLS settings fortify each transition."
+  },
+  "5": {
+    "HEADER_LABEL": "PREVIOUS RISKS",
+    "HUGE_STAT": "Risky",
+    "CIRCLE_WORD_1": "ENTRY",
+    "CIRCLE_WORD_2": "RISK",
+    "HEADLINE_PART_1": "Previously, TLS was",
+    "HEADLINE_PART_2": "applied only at entry",
+    "HEADLINE_EMPHASIS": "AT ENTRY",
+    "BODY_TEXT": "Without per-hop TLS, subsequent stages were vulnerable to security gaps, risking data exposure."
+  },
+  "6": {
+    "HEADER_LABEL": "ACTION REQUIRED",
+    "HUGE_STAT": "Check Now",
+    "CIRCLE_WORD_1": "TLS",
+    "CIRCLE_WORD_2": "SETUP",
+    "HEADLINE_PART_1": "Check if your proxies",
+    "HEADLINE_PART_2": "enforce TLS per hop",
+    "HEADLINE_EMPHASIS": "PER HOP",
+    "SUBHEAD": "Ensure each proxy in your workflow is set to utilize the new TLS per hop feature of n8n@2.34.5.",
+    "BODY_TEXT": "Configuration verification is vital for maintaining the highest level of data security throughout."
+  },
+  "7": {
+    "HEADLINE_PART_1": "This update eases",
+    "HEADLINE_PART_2": "multi-hop secure management",
+    "HEADLINE_EMPHASIS": "MANAGEMENT",
+    "SUBHEAD": "Effortless multi-hop security for streamlined data workflow management.",
+    "BODY_TEXT": "n8n ensures every proxy use case integrates seamlessly with the latest TLS advancements."
+  }
+}

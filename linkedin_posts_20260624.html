@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Daily Founder — 2026-06-24</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background-color: #FAF9F5;
+        color: #141413;
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        padding: 40px 20px;
+    }
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    /* Newspaper Header */
+    .paper-header {
+        border-bottom: 2px solid #141413;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    .issue-no {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .logo {
+        font-family: 'Instrument Serif', serif;
+        font-size: 64px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 1;
+        color: #d97757;
+    }
+    .source-tag {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .header-meta {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #666;
+        letter-spacing: 1px;
+    }
+    
+    /* Layout Grid */
+    .paper-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+    }
+    
+    .main-column {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .side-column {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        border-left: 1px solid rgba(0, 0, 0, 0.08);
+        padding-left: 40px;
+    }
+    
+    /* Section Titles */
+    .section-title {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #141413;
+        padding-bottom: 8px;
+        margin-bottom: 25px;
+        color: #d97757;
+    }
+    
+    /* Article Card */
+    .article {
+        background: #FFF;
+        border: 1px solid #E5E4DE;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.01);
+        position: relative;
+    }
+    .article-header {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .article-badge {
+        background-color: rgba(217, 119, 87, 0.1);
+        color: #d97757;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .article-title {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+        color: #141413;
+        margin-top: 8px;
+    }
+    .article-body {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        line-height: 1.65;
+        color: #2a2a2a;
+        white-space: pre-wrap;
+        margin-bottom: 25px;
+    }
+    .article-body p {
+        margin-bottom: 16px;
+    }
+    .article-meta {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px dashed rgba(0,0,0,0.08);
+        padding-top: 15px;
+        white-space: pre-wrap;
+    }
+    
+    /* Action Buttons */
+    .btn-copy {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #141413;
+        color: #FAF9F5;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    .btn-copy:hover {
+        background-color: #d97757;
+    }
+    .btn-copy.copied {
+        background-color: #489953;
+    }
+    
+    /* Infographic Preview */
+    .infographic-preview img {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #E5E4DE;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+        margin-top: 15px;
+    }
+    
+    /* Slides Container */
+    .slides-preview {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .slide-card {
+        position: relative;
+    }
+    .slide-label {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background-color: rgba(20,20,20,0.8);
+        color: #FFF;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        z-index: 10;
+    }
+    .slide-card img {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #E5E4DE;
+    }
+    
+    /* Responsive Grid */
+    @media (max-width: 1100px) {
+        .paper-grid {
+            grid-template-columns: 1fr;
+        }
+        .side-column {
+            border-left: none;
+            padding-left: 0;
+        }
+    }
+    
+    /* Print Styles for PDF Generation */
+    @media print {
+        body {
+            background-color: #FAF9F5 !important;
+            padding: 0 !important;
+            color: #141413 !important;
+        }
+        .container {
+            max-width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .btn-copy {
+            display: none !important;
+        }
+        .paper-grid {
+            display: block !important;
+        }
+        .main-column, .side-column {
+            width: 100% !important;
+            border-left: none !important;
+            padding-left: 0 !important;
+            gap: 20px !important;
+        }
+        .article {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+            border: 1px solid #E5E4DE !important;
+            background: #FFF !important;
+            box-shadow: none !important;
+            margin-bottom: 15px !important;
+            padding: 20px !important;
+        }
+        .slides-preview, .infographic-preview {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+        }
+        h1, h2, h3, .section-title {
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <header class="paper-header">
+        <div class="header-top">
+            <span class="issue-no">ISSUE NO. 20260624</span>
+            <h1 class="logo">The Daily Founder</h1>
+            <span class="source-tag">FOUNDERS WING</span>
+        </div>
+        <div class="header-meta">
+            <span>DATE: 2026-06-24</span>
+            <span>EDITION: LINKEDIN DAILY SHEET</span>
+            <span>STATUS: GENERATED SUCCESSFULLY</span>
+        </div>
+    </header>
+
+    <div class="paper-grid">
+        <!-- Main Column: Posts -->
+        <main class="main-column">
+            <div class="section-title">Core Discussion & Poll</div>
+            
+            <!-- Collaborative Article -->
+            <article class="article">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">01. Collaborative Article</span>
+                        <h2 class="article-title">Collaborative Discussion</h2>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-collab', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-collab">A silent crisis is happening across the D2C and service business space that nobody discusses on social feeds. The brands that are actually burning the most ad spend stay completely silent.
+
+They carry the weight of failing metrics, rising cost per lead (CPL), and manual operational bottlenecks alone. They cannot share their campaign fears online because their competitors and clients are watching. They perform success publicly while handling the real pressure of unoptimized ad accounts privately.
+
+Building an automated lead routing system that connects Meta Ads directly to CRM pipelines via n8n provides a safe release. Instantly alerting sales teams of new hot leads within two minutes removes the friction of manual follow-ups.
+
+Moving from manual spreadsheets to instant sales notifications lowers lead response delays and prevents lead leakage. Business owners get higher booking rates and better sales conversions, leading to higher ROAS.
+
+How do service businesses build a reliable follow-up pipeline that does not compromise their sales time?
+
+Follow @harshchouksey for more.</div>
+            </article>
+            
+            <!-- Poll -->
+            <article class="article">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">02. Engagement Poll</span>
+                        <h2 class="article-title">Engagement Poll</h2>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-poll', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-poll">Most brands copy what every other competitor is doing in their Meta Ads campaigns, and very few are willing to optimize their actual conversion funnels. Conversion rates suffer when founders focus entirely on immediate traffic volume. They ignore building a unique lead experience.
+
+When marketing teams operate from a traffic-only mindset, they replicate generic ad creatives. They spend their entire budget trying to win a CPM war. They do not make their landing page experience feel high-converting.
+
+Shifting from a traffic focus to an automated conversion funnel focus reveals leaks that competitors ignore.
+
+Creating a system that qualifies leads instantly builds natural sales pipeline efficiency. The business stands out in a crowded market, making paid traffic scale profitably.
+
+What is the biggest barrier to scaling paid traffic in early stage brands?
+
+☐ Pure ad budget panic
+☐ Slow manual lead follow-up
+☐ Poor landing page conversion
+☐ Lack of ad creative testing
+
+Share a story of how your team optimized ad conversion rates in the comments.</div>
+            </article>
+
+            <div class="section-title">Plain-Text AI News Curation</div>
+            
+            <!-- AI News Posts -->
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Tool Spotlight</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-1', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-1">A new advanced AI agent node is helping service businesses automate email triage and CRM lead scoring. Distilled AI agents are making instant lead qualification accessible for local businesses.
+
+Small business owners struggle to filter out spam inquiries from real buying signals. Managing inbound emails manually costs hours of sales time.
+
+Using specialized workflow nodes reduces the cost of lead scoring to fraction of a cent per lead. Businesses can categorize inquiries and sync details to CRMs without manual data entry.
+
+Service brands can follow up with qualified leads in minutes, improving booking conversions without adding operations staff.
+
+Will automated email triage help small agencies compete with large consulting firms?
+
+Follow @harshchouksey for more tools.</div>
+                <div class="article-meta">Tool featured: n8n AI Agent Node
+Source: TechCrunch AI
+Archetype: Tool Spotlight | Emotion: WOW
+Why this works: It highlights a highly cost-effective tool built for automated operations.
+Word count: 118 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Weekly Roundup</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-2', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-2">Major platform updates are reshaping the performance marketing sector this week. Targeting upgrades, workflow nodes, and ad placement metrics are changing how brands scale.
+
+Following every ad policy and feature announcement takes hours of reading. The rapid pace of changes makes it hard to see where to optimize.
+
+Focus on the largest movements. Meta is rolling out Advantage+ targeting upgrades. n8n launched advanced CRM sync nodes. WhatsApp updated its utility messaging rate. LinkedIn reports rising B2B ad placement costs.
+
+Understanding where the ad tech is going helps agencies spot scaling and automation opportunities early.
+
+Which of these marketing updates will have the biggest impact on your ad accounts?
+
+Save this post to track today's ad trends.</div>
+                <div class="article-meta">Tools/stories featured: Meta Advantage+, n8n CRM nodes, WhatsApp Business API, LinkedIn B2B ad costs
+Source: AdExchanger
+Archetype: Weekly Roundup | Emotion: OHHH
+Why this works: Condenses massive marketing and ad tech updates into a single summary.
+Word count: 128 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Plain English Breakdown</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-3', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-3">Meta rolled out updated creative automation features to dynamically modify ad graphics. The goal is to build a system that acts as a general layout editor for placements.
+
+Manual graphic design variations take days to produce. Replicating aspect ratios and color schemes manually burns creative budget.
+
+Advantage+ creative features alter layouts and colors automatically. This allows the Meta algorithm to predict which graphic style converts best for each user.
+
+E-commerce brands can launch ad sets in minutes instead of days, lowering the cost of creative testing.
+
+The main limitation is that automated layout changes can ruin brand aesthetics, meaning automated ads will always need strict guidelines.
+
+How soon will creative automation run ad graphics without human designer supervision?
+
+Follow @harshchouksey for more breakdowns.</div>
+                <div class="article-meta">Tools/stories featured: Meta Advantage+ Creative Automation
+Source: Meta Business News
+Archetype: Plain English Breakdown | Emotion: OHHH
+Why this works: Explains a complex ad feature update and highlights an aesthetic limitation.
+Word count: 139 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Unfair Advantage</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-4', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-4">Automating server-side data feedback loops is a massive advantage for bootstrapped startups. Conversions API (CAPI) integrations are removing the browser-tracking barrier.
+
+Browser pixels miss up to thirty percent of conversion events due to ad blockers. This misleads the Meta algorithm, raising lead acquisition costs.
+
+Startups can use n8n workflow nodes to sync CRM purchase events back to Meta. Consultants like Harsh Chouksey help brands connect these tracking systems.
+
+Solo founders can run ad campaigns, optimize bidding based on real sales revenue, and find product market fit without data loss.
+
+What is your preferred method for setting up server-side conversion tracking?
+
+Follow @harshchouksey for more advantages.</div>
+                <div class="article-meta">Tools/stories featured: n8n Conversions API Sync, Harsh Chouksey
+Source: Meta Developer Blog
+Archetype: Unfair Advantage | Emotion: WOW
+Why this works: Connects tracking API systems with ad optimization and naturally mentions Harsh Chouksey.
+Word count: 120 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Career/Income</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-5', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-5">The rise of CRM automation consulting is shifting technical marketing roles. Reconfigurable sales pipelines are changing how agency leads are managed.
+
+Traditional CRM configurations require expensive developers for every new product launch. This keeps advanced pipeline design out of reach for small service brands.
+
+Consultants are moving from simple ad setup to automated CRM pipeline design. Learning how to connect n8n workflows and WhatsApp auto-responders creates a high-paying career path.
+
+Service brands can nurture leads automatically, lowering client acquisition costs and scaling sales operations dynamically.
+
+Will automated WhatsApp pipelines replace traditional email marketing for local businesses?
+
+Save this post to reference automation trends.</div>
+                <div class="article-meta">Tools/stories featured: n8n WhatsApp CRM pipelines
+Source: Reddit /r/n8n
+Archetype: Career/Income | Emotion: AHA
+Why this works: Explains a career transition from simple ad buyer to automation system architect.
+Word count: 119 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Hot Take</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-6', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-6">The upcoming ad cost spikes on B2B platforms is a stress test for customer acquisition budgets. The era of cheap lead generation without high-converting landing pages is ending.
+
+Ad buyers have ignored landing page conversion rates for years. When ad costs rise, campaigns quickly become unprofitable.
+
+Watch how conversion funnels optimize lead flow. Consultants like Harsh Chouksey track how landing page friction affects customer acquisition costs and ad spend efficiency.
+
+More realistic landing page designs bring profitability to ad campaigns, making it easier for brands to scale budgets based on real margins.
+
+Will rising ad costs force agencies to focus more on landing page design than ad creative editing?
+
+Follow @harshchouksey for more takes.</div>
+                <div class="article-meta">Tools/stories featured: Meta Ads, LinkedIn Ads, Harsh Chouksey
+Source: Adweek
+Archetype: Hot Take | Emotion: THINK
+Why this works: Offers a contrarian take on ad creatives vs landing page funnels and naturally mentions Harsh Chouksey.
+Word count: 125 words</div>
+            </article>
+            
+            <article class="article" style="margin-bottom: 20px;">
+                <div class="article-header">
+                    <div>
+                        <span class="article-badge">Steal This</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyToClipboard('text-post-7', this)">Copy Post</button>
+                </div>
+                <div class="article-body" id="text-post-7">Use this three-step n8n workflow prompt to automate lead classification in your CRM. Stop routing cold leads to your sales team's call calendar.
+
+Salespeople spend hours calling unqualified leads who have no buying intent. They rely on manual data checking instead of automated filters.
+
+Run this classification workflow before scheduling calls:
+
+"Act as a lead-scoring agent. Analyze this lead details: [Insert Form Details].
+1. Identify if the business size matches our criteria.
+2. List 3 key indicators of purchase readiness.
+3. Classify the lead as hot, warm, or cold and route accordingly."
+
+You route hot prospects to calendars and send nurture emails to cold leads, turning a spreadsheet list into a sales engine.
+
+What lead qualification criteria will you test using this automation prompt today?
+
+Save this prompt to use on your next campaign.</div>
+                <div class="article-meta">What's being shared: CRM Lead-Scoring Prompt Workflow
+Source: Reddit /r/marketing
+Archetype: Steal This | Emotion: WOW
+Why this works: Provides a copy-pasteable lead classification prompt under 120 words.
+Word count: 122 words</div>
+            </article>
+            
+        </main>
+        
+        <!-- Side Column: Previews -->
+        <aside class="side-column">
+            <!-- Infographic Section -->
+            <div>
+                <div class="section-title">Infographic</div>
+                <article class="article">
+                    <div class="article-header">
+                        <div>
+                            <span class="article-badge">04. Infographic Caption</span>
+                        </div>
+                        <button class="btn-copy" onclick="copyToClipboard('text-info-caption', this)">Copy Caption</button>
+                    </div>
+                    <div class="article-body" id="text-info-caption" style="font-size: 14px;">Automating lead follow-up within five minutes is the difference between a high-converting campaign and a wasted ad budget. Waiting thirty minutes to call prospects reduces booking rates by nearly eighty percent. The rapid decline in lead response efficiency highlights why manual tracking fails to scale. Shifting from manual spreadsheets to automated CRM pipelines is a massive time-saver.
+
+What is your team's average response time for new inbound leads?
+
+Follow @harshchouksey for more data.</div>
+                    <div class="article-meta" style="font-size: 11px;">.</div>
+                    <div class="infographic-preview">
+                        <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/linkedin-infographic-20260624.png" alt="Infographic Preview">
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Carousel Section -->
+            <div>
+                <div class="section-title">Carousel Slides</div>
+                <article class="article">
+                    <div class="article-header">
+                        <div>
+                            <span class="article-badge">03. Carousel Caption</span>
+                        </div>
+                        <button class="btn-copy" onclick="copyToClipboard('text-carousel-caption', this)">Copy Caption</button>
+                    </div>
+                    <div class="article-body" id="text-carousel-caption" style="font-size: 14px;">Letting leads sit on CRM spreadsheets for days burns ad budget. Successful brands connect Meta Ads directly to n8n workflows and WhatsApp auto-responders to engage prospects in two minutes. Automated scoring and follow-ups turn cold clicks into discovery bookings.
+
+How do you follow up with paid traffic leads?
+
+Follow @harshchouksey for more.</div>
+                    <div class="article-meta" style="margin-bottom: 20px;">
+                        <a href="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/startup-strategy-carousel.pdf" target="_blank" style="color: #d97757; font-weight: 700; text-decoration: none;">Download Carousel PDF ↗</a>
+                    </div>
+                    <div class="slides-preview">
+                        
+        <div class="slide-card">
+            <span class="slide-label">Slide 1</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-01.png" alt="Slide 1" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 2</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-02.png" alt="Slide 2" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 3</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-03.png" alt="Slide 3" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 4</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-04.png" alt="Slide 4" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 5</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-05.png" alt="Slide 5" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 6</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-06.png" alt="Slide 6" onerror="this.style.display='none';">
+        </div>
+        
+        <div class="slide-card">
+            <span class="slide-label">Slide 7</span>
+            <img src="file:///Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/carousel-routine/output/2026-06-24/carousel-branded/slide-07.png" alt="Slide 7" onerror="this.style.display='none';">
+        </div>
+        
+                    </div>
+                </article>
+            </div>
+        </aside>
+    </div>
+</div>
+
+<script>
+function copyToClipboard(textId, buttonEl) {
+    const el = document.getElementById(textId);
+    // Extract innerText or innerHTML depending on formatting
+    let text = el.innerText || el.textContent;
+    
+    // Fallback split for headers
+    if (textId === 'text-collab' || textId === 'text-poll') {
+        // strip header line
+        const lines = text.split('\n');
+        if (lines[0].startsWith('Headline:')) {
+            text = lines.slice(1).join('\n').trim();
+        }
+    }
+    
+    navigator.clipboard.writeText(text.trim()).then(() => {
+        const originalText = buttonEl.innerHTML;
+        buttonEl.innerHTML = "✓ Copied!";
+        buttonEl.classList.add("copied");
+        buttonEl.style.backgroundColor = "#489953";
+        setTimeout(() => {
+            buttonEl.innerHTML = originalText;
+            buttonEl.classList.remove("copied");
+            buttonEl.style.backgroundColor = "#141413";
+        }, 1500);
+    }).catch(err => {
+        console.error('Could not copy text: ', err);
+    });
+}
+</script>
+</body>
+</html>

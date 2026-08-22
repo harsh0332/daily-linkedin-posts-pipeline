@@ -1,0 +1,16 @@
+{
+  "ad-teardown": {
+    "ad_1020562504191672.json": "2026-08-17"
+  },
+  "benchmark": {
+    "wordstream-fb-cpc-all-industries": "2026-08-21",
+    "wordstream-fb-cvr-all-industries": "2026-08-18"
+  },
+  "community-question": {
+    "What do you think about the ads on ChatG": "2026-08-21"
+  },
+  "update-or-hot-take": {
+    "n8n-n8n@2.34.5": "2026-08-20",
+    "n8n-n8n@2.35.0": "2026-08-21"
+  }
+}

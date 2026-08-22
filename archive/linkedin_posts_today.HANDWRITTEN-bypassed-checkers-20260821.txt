@@ -1,0 +1,137 @@
+==================================================
+1. CAROUSEL 1
+==================================================
+Hook: Zomato's Dynamic Retargeting & Localized Creative Teardown
+
+Slide 1:  
+Zomato's Dynamic Retargeting Playbook
+
+Slide 2:  
+Active for 42 days in 2026 campaigns. Dynamic catalog ads paired with city-specific creative variations maintain conversion volume.
+
+Slide 3:  
+City landmarks and local cuisine cues replace generic 'Order Now' banners to boost relevance.
+
+Slide 4:  
+Zero friction straight to restaurant menu. Bypassing the app home screen prevents search drop-off and shortens checkout time.
+
+Slide 5:  
+Compact primary text for mobile feeds ensures the entire message is visible above the fold on mobile screens.
+
+Slide 6:  
+Mealtime ad delivery drives peak orders. Dayparting concentrates ad spend during high-appetite purchasing windows.
+
+Slide 7:  
+Relevance beats heavy discounting. Aligning creative hooks with user location and meal timings produces consistent retention.
+
+CAROUSEL CAPTION:  
+Zomato's Meta ad creative shows a deliberate pattern: hyperlocal copy hooks, time-of-day ad scheduling, and direct deep-linking into restaurant checkout flows.
+
+When retargeting food delivery or e-commerce buyers, generic discount banners suffer from rapid creative fatigue. By testing localized visual cues and matching ad delivery to peak purchasing hours, the campaign maintains steady conversion velocity.
+
+If you want the breakdown of how we structure localized dynamic retargeting on Meta, drop a comment with "RETARGET" and I'll send the playbook.
+
+==================================================
+2. TEXT 1
+==================================================
+A $3 lead on Meta that never answers the phone actually costs you $80 in wasted sales time.
+
+Most performance marketers focus strictly on reducing Cost Per Lead (CPL) inside Ads Manager. They turn on auto-fill Instant Forms with zero friction, watch the CPL drop from $15 to $4, and celebrate a dashboard win.
+
+Then the sales team dials 100 leads and gets 85 dead numbers, accidental clicks, or people who don't remember filling the form.
+
+When we set up Meta lead generation campaigns for high-ticket service businesses and B2B clients, we intentionally introduce two friction points:
+
+1. A mandatory custom dropdown question (e.g., current monthly volume or specific requirement) that cannot be auto-filled by Facebook.
+2. A review step with a clear confirmation screen before submission.
+
+Say you're spending Rs 50,000 to generate 200 low-intent leads at Rs 250 each. If only 4 close, your customer acquisition cost is Rs 12,500.
+
+Add custom intent filters: lead volume might drop to 120 at Rs 415 CPL, but connection rates jump and 12 close, bringing acquisition cost down to Rs 4,166.
+
+Stop optimizing for vanity lead volume. Optimize for qualified conversations that your sales team can actually close.
+
+DM me "QUALIFY" and I'll share the 3-question filter template we use on Meta Lead Forms.
+
+==================================================
+3. CAROUSEL 2
+==================================================
+Hook: Building an Autonomous Lead Routing System on n8n
+
+Slide 1:  
+Autonomous Lead Routing Workflow on n8n
+
+Slide 2:  
+Speed to lead defines deal closing rates. Manual lead triage creates response lag that kills prospective deal momentum.
+
+Slide 3:  
+Webhook to CRM in one automated flow. Ingesting webhook payloads from Meta and website forms directly into an n8n processing pipeline.
+
+Slide 4:  
+Parsing intent with Claude 3.5 Sonnet. The AI node classifies lead quality and assigns a priority score (High, Medium, Low).
+
+Slide 5:  
+Real-time notification to sales on WhatsApp. High-priority leads trigger an instant WhatsApp message to the assigned account executive.
+
+Slide 6:  
+Auto-syncing lead records directly into HubSpot. Contact details, qualification summary, and notes logged automatically.
+
+Slide 7:  
+Automating lead triage boosts deal velocity. Eliminating manual sorting ensures no high-value inbound inquiry slips through the cracks.
+
+CAROUSEL CAPTION:  
+When an inbound lead submits a form, every minute of delay reduces the probability of qualifying that lead.
+
+I built an automated workflow on n8n that eliminates manual lead triage entirely:
+
+1. Webhook trigger captures lead data from Meta Forms and landing pages instantly.
+2. An AI Agent node (using Claude 3.5 Sonnet) parses unstructured text, extracts deal context, and assigns an intent score.
+3. High-priority leads are routed directly to the on-duty sales rep via WhatsApp within 60 seconds.
+4. The full profile and qualification summary are synced directly into the CRM.
+
+Sales reps stop wasting time copying contact info between spreadsheets and start talking to warm prospects while intent is at its peak.
+
+DM me "ROUTING" and I'll send you the exportable n8n workflow JSON so you can import it directly.
+
+==================================================
+4. TEXT 2
+==================================================
+Visual pattern interrupts without a clear outcome kill ad retention by second 4.
+
+In direct-response video advertising, the first three seconds determine whether your CPM turns into customer acquisition or wasted spend.
+
+Many brands make the mistake of using loud, random visual gimmicks that grab attention for half a second, but have zero connection to the product's actual value proposition. The viewer looks, gets confused, and swipes away before the offer is introduced.
+
+A high-performing hook structure follows three precise elements:
+
+1. The Visual Anchor: Show the core frustration or the immediate physical result within the first frame.
+2. The Audio Disruption: Open with a contrarian statement or a specific diagnostic question rather than generic brand greetings.
+3. The Benefit Bridge: State the exact mechanism of resolution before the 4-second mark.
+
+Say you are running creative tests across 5 new UGC variations. If your 3-second hook rate is below 25%, the body copy and offer will never get seen, regardless of how strong your landing page is.
+
+Fix the hook architecture first, then scale the ad spend.
+
+If you want our internal 1-page creative testing scorecard for Meta ads, comment "HOOKS" below.
+
+==================================================
+5. TEXT 3
+==================================================
+If your Meta Event Match Quality score is below 8.0, Advantage+ algorithms are bidding with incomplete data.
+
+Since privacy updates and browser tracking restrictions limited standard pixel tracking, client-side tracking alone misses a substantial portion of purchase and lead events.
+
+When Meta's ad algorithm cannot match conversions back to specific user profiles, your cost per acquisition creeps up because the system cannot accurately identify high-intent buyer audiences.
+
+Setting up the Meta Conversions API (CAPI) through server-side tracking solves this by passing hashed customer parameters directly from your backend server:
+
+- Hashed email address (em) and phone number (ph)
+- Client IP address and user agent
+- Browser ID (fbp) and Click ID (fbc)
+- Unique External ID (external_id) for deduplication
+
+By passing these parameters through a server-side gateway, Event Match Quality scores rise above 8.5/10.
+
+When conversion data feeds back into Ads Manager with high match accuracy, Advantage+ optimization models stabilize and deliver consistent audience targeting.
+
+DM me "CAPI" and I will send over our step-by-step checklist for setting up Conversions API with proper event deduplication.

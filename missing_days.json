@@ -1,0 +1,23 @@
+[
+  {
+    "day": "Mon",
+    "pillar": "ad-teardown",
+    "format": "carousel",
+    "reason": "every ad in the pool has already been torn down.",
+    "detail": "Pool: 1 ad(s) in /Users/harshchouksey/Desktop/daily-linkedin-posts-pipeline/sources/ad_teardowns\n  Already used: ad_1020562504191672.json\n\n  This pillar will NOT republish a teardown. Add a new ad JSON:\n    curl -s -X POST http://localhost:8000/api/extract \\\n      -H 'Content-Type: application/json' \\\n      -d '{\"url\":\"<meta ad library url>\"}' \\\n      > sources/ad_teardowns/<name>.json\n  One teardown a week means you need one new ad a week. Keeping\n  4-6 in the pool gives you a month of runway."
+  },
+  {
+    "day": "Tue",
+    "pillar": "benchmark",
+    "format": "text",
+    "reason": "every benchmark figure has already been published.",
+    "detail": "Pool: 2 entry/entries carrying 'text'\n  Already used: wordstream-fb-cpc-all-industries, wordstream-fb-cvr-all-industries\n\n  The `used = false` field in benchmarks.toml was never written\n  by anything - nothing in the codebase opens that file for\n  writing. Usage is tracked in used_sources.json instead.\n  Add a new [[benchmark]] block by hand from an allowlisted\n  publisher. Weekly use means roughly 4-5 figures per month."
+  },
+  {
+    "day": "Thu",
+    "pillar": "community-question",
+    "format": "text",
+    "reason": "the matcher call failed, so no pairing could be evaluated.",
+    "detail": "This is NOT a finding that your notes have nothing to say.\n  The API returned no response at all - see the 429 or HTTP\n  error lines above. Re-run when the API is healthy; the\n  pillar itself has not been assessed."
+  }
+]

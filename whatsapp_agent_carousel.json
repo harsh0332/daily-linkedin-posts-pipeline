@@ -1,0 +1,63 @@
+{
+  "1": {
+    "HEADER_LABEL": "WHATSAPP AI AGENTS",
+    "HOOK_PART_1": "How to Build a",
+    "HOOK_PART_2": "WhatsApp AI Agent",
+    "HOOK_EMPHASIS": "WHATSAPP AGENT",
+    "SUBTITLE": "Connection Process, BSP vs Tech Providers, Platforms & Business Model — A complete step-by-step technical guide."
+  },
+  "2": {
+    "PILL_LABEL": "2 CONNECTION METHODS",
+    "EYEBROW": "META CLOUD API",
+    "HEADLINE_PART_1": "Direct Cloud API vs",
+    "HEADLINE_PART_2": "WhatsApp BSP Platforms",
+    "HEADLINE_EMPHASIS": "CLOUD API",
+    "SUBHEAD": "Meta Direct gives 0% markup, while BSPs add team inbox UIs.",
+    "BODY_TEXT": "Use Meta Cloud API directly with n8n/Make for maximum margin & custom logic, or BSPs (Wati, Interakt) for team chat UIs."
+  },
+  "3": {
+    "HEADER_LABEL": "THE AI STACK",
+    "HUGE_STAT": "2 Sec",
+    "CIRCLE_WORD_1": "AUTO",
+    "CIRCLE_WORD_2": "REPLY",
+    "HEADLINE_PART_1": "n8n + OpenAI +",
+    "HEADLINE_PART_2": "WhatsApp Business API",
+    "HEADLINE_EMPHASIS": "N8N + AI",
+    "BODY_TEXT": "Webhooks route incoming WhatsApp messages to n8n. LLM nodes classify intent, extract lead details, and respond instantly."
+  },
+  "4": {
+    "PILL_LABEL": "REAL CASE STUDY",
+    "EYEBROW": "AGRI-TECH BUILD",
+    "HEADLINE_PART_1": "Hindi AI Agent for",
+    "HEADLINE_PART_2": "Agri-Seeds Company",
+    "HEADLINE_EMPHASIS": "AGRI-SEEDS",
+    "SUBHEAD": "Farmers chat in regional Hindi for crop & seed inquiries.",
+    "BODY_TEXT": "Built a multilingual WhatsApp AI agent for an agricultural seeds brand. Farmers send voice/text in Hindi & get instant expert seed guidance."
+  },
+  "5": {
+    "HEADER_LABEL": "BUSINESS MODEL",
+    "HUGE_STAT": "₹50K+",
+    "CIRCLE_WORD_1": "PER",
+    "CIRCLE_WORD_2": "CLIENT",
+    "HEADLINE_PART_1": "Monetizing WhatsApp",
+    "HEADLINE_PART_2": "Agent Implementations",
+    "HEADLINE_EMPHASIS": "MONETIZE",
+    "SUBHEAD": "High-margin agency model for B2B & D2C clients.",
+    "BODY_TEXT": "Charge ₹50k-₹1.5L upfront build fee + monthly retainer for maintenance, vector database updates, and conversation tuning."
+  },
+  "6": {
+    "HEADER_LABEL": "THE LESSON",
+    "HUGE_STAT": "98%",
+    "HEADLINE_PART_1": "WhatsApp is the #1",
+    "HEADLINE_PART_2": "conversion channel in 2026",
+    "HEADLINE_EMPHASIS": "CONVERSION",
+    "SUBHEAD": "Email open rates are 15%. WhatsApp open rates are 98%.",
+    "BODY_TEXT": "If your business relies on manual follow-ups, an automated WhatsApp agent will double your lead conversion rates in 7 days."
+  },
+  "7": {
+    "HEADLINE_PART_1": "Build your custom",
+    "HEADLINE_PART_2": "WhatsApp AI Agent",
+    "HEADLINE_EMPHASIS": "WHATSAPP",
+    "SUBHEAD": "Follow @harshchouksey or DM 'AGENT' to build an automated WhatsApp growth engine for your business."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "1": {
+    "HEADER_LABEL": "AI AGENT ARCHITECTURE",
+    "HOOK_PART_1": "5 Autonomous AI Agents",
+    "HOOK_PART_2": "That Run Your Business",
+    "HOOK_EMPHASIS": "AI AGENTS",
+    "SUBTITLE": "Built with Claude Opus & n8n — How founders automate company pulse, sales tracking, hiring briefs & churn alerts."
+  },
+  "2": {
+    "PILL_LABEL": "01. OPERATIONS",
+    "EYEBROW": "COMPANY PULSE AGENT",
+    "HEADLINE_PART_1": "Synthesize Slack, CRM",
+    "HEADLINE_PART_2": "& Financials into 1 Brief",
+    "HEADLINE_EMPHASIS": "PULSE AGENT",
+    "SUBHEAD": "Replaces scattered daily updates with 1 clear founder dashboard.",
+    "BODY_TEXT": "Connects Slack, CRM, and Stripe. Synthesizes team blockers, unhappy clients, and daily revenue wins into a 2-minute morning brief."
+  },
+  "3": {
+    "HEADER_LABEL": "02. RETENTION",
+    "HUGE_STAT": "$128K",
+    "CIRCLE_WORD_1": "MRR",
+    "CIRCLE_WORD_2": "SAVED",
+    "HEADLINE_PART_1": "Catch Client Churn",
+    "HEADLINE_PART_2": "30 Days Before It Hits",
+    "HEADLINE_EMPHASIS": "CHURN RISK",
+    "BODY_TEXT": "Monitors account health signals, usage drop-offs, and open support tickets to alert account managers before cancellation."
+  },
+  "4": {
+    "PILL_LABEL": "03. RECRUITING",
+    "EYEBROW": "HIRING AGENT",
+    "HEADLINE_PART_1": "Preps Founder Rounds",
+    "HEADLINE_PART_2": "with Fit Scorecards",
+    "HEADLINE_EMPHASIS": "HIRING AGENT",
+    "SUBHEAD": "Walk into every final interview with full candidate context.",
+    "BODY_TEXT": "Reads HR notes & candidate resumes, generates a 10-point founder-fit scorecard, and drafts exact deal-closing questions."
+  },
+  "5": {
+    "HEADER_LABEL": "04. REVENUE",
+    "HUGE_STAT": "4.5x",
+    "CIRCLE_WORD_1": "PIPELINE",
+    "CIRCLE_WORD_2": "TRACK",
+    "HEADLINE_PART_1": "Track Cold Outreach,",
+    "HEADLINE_PART_2": "LinkedIn DMs & Win Rates",
+    "HEADLINE_EMPHASIS": "SALES AGENT",
+    "BODY_TEXT": "Unified sales dashboard that audits rep activity, tracks deal velocities, and triggers automated follow-ups for stalled proposals."
+  },
+  "6": {
+    "HEADER_LABEL": "THE ARCHITECTURE",
+    "HUGE_STAT": "Claude",
+    "HEADLINE_PART_1": "Built with Claude Opus +",
+    "HEADLINE_PART_2": "n8n Webhook Workflows",
+    "HEADLINE_EMPHASIS": "TECH STACK",
+    "SUBHEAD": "No complex code required. Uses structured JSON outputs & LLM tool calls.",
+    "BODY_TEXT": "Connect API endpoints to n8n webhooks. Route context through Claude Opus for intent parsing, and output real-time alerts to Slack."
+  },
+  "7": {
+    "HEADLINE_PART_1": "Get the Complete AI Agent",
+    "HEADLINE_PART_2": "Setup & Prompt Guide",
+    "HEADLINE_EMPHASIS": "FULL GUIDE",
+    "SUBHEAD": "Comment 'GUIDE' below to get the full step-by-step n8n workflow blueprints, prompt templates, and tool setup guide."
+  }
+}

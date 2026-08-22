@@ -1,0 +1,35 @@
+Meta just changed performance marketing forever, and 95% of media buyers haven't realized it yet.
+
+They officially launched the Meta Ads MCP Server.
+
+For years, AI could only give recommendations—like suggesting budget tweaks or writing ad copy in a draft doc.
+
+Now, AI agents have direct execution permissions inside your Meta ad account.
+
+An AI agent can now autonomously:
+📊 Launch new campaign structures
+🎯 Adjust bid caps and scaling budgets
+🎨 Test new creative variations
+📍 Update custom audience targeting
+▶️ Pause underperforming ad sets in real-time
+
+This is no longer "AI-assisted marketing." This is autonomous ad execution.
+
+At BeyondNull, we've been testing MCP servers with n8n pipelines for Meta ad accounts over the last 30 days.
+
+Here is what we learned:
+
+1. The death of manual button-clicking
+Media buyers who spend 4 hours a day duplicating ad sets and manually adjusting budgets will be obsolete. The value is now in creative strategy, offer positioning, and agent architecture.
+
+2. Guardrails beat manual monitoring
+You don't give an AI agent unlimited credit card access. You set strict programmatic guardrails (e.g., max 15% budget scale per 24h, auto-kill if CPA > 1.5x target).
+
+3. The human + agent flywheel
+AI handles 24/7 account monitoring and execution speed. You handle offer angles, hooks, and business strategy.
+
+The question is no longer: "Can AI help me run Meta ads?"
+
+The real question is: "What parts of your ad account management are you still manually doing by hand?"
+
+DM me 'MCP' if you want to see our n8n + Meta Ads MCP workflow architecture.

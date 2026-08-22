@@ -1,0 +1,74 @@
+==================================================
+1. CAROUSEL 1
+==================================================
+Hook: Flipkart Ad Teardown: The Essentials
+
+Slide 1:  
+Flipkart Ad Teardown: The Essentials
+
+Slide 2:  
+The Meta Ad Library shows this creative has been running 34 days as of 2026. This longevity suggests they're finding value in it.
+
+Slide 3:  
+The ad is structured as a 6-card carousel, each showcasing different product categories: Baby Care, Healthcare, Sports, Toys, Books, Pet essentials.
+
+Slide 4:  
+With body copy limited to 202 characters, the message is concise but potentially lacking an immediate hook to stand out.
+
+Slide 5:  
+The 'Buy now' CTA at the end aims to drive immediate action. It's a straightforward prompt, but I'd test positioning the offer upfront.
+
+Slide 6:  
+Currently delivering on 5 placements, ensuring wide coverage and visibility across different user feeds.
+
+Slide 7:  
+If it were mine, I'd consider adding a number or time-limited offer in the opening line for more immediate engagement.
+
+CAROUSEL CAPTION:  
+Breaking down a 34-day-running Flipkart ad from the Meta Ad Library, I see room for testing hooks and headline changes. What would you tweak for more impact? Share your thoughts!
+
+==================================================
+2. TEXT 1
+==================================================
+Most people quoting a Facebook Ads conversion benchmark are quoting 2017. WordStream's 2017 sample puts the median Facebook Ads conversion rate across all industries at 9.21%, drawn from a November 2016 to January 2017 survey of 256 US accounts. It's quite revealing to realize that this benchmark many still use comes from 9 years ago. 
+
+The platform has evolved tremendously since then, and sticking to this outdated marker can lead to misguided expectations. It's crucial to assess what your own account's baseline is today, whether it's competitive, or whether measurements have shifted considerably. 
+
+Make sure you're aligning your expectations with current realities. Let's refine the baseline and set new goals. DM me if you're interested in discussing what benchmarks are truly relevant as of now.
+
+==================================================
+3. CAROUSEL 2
+==================================================
+Hook: Bot loops: Fixing with reasoning, not models
+
+Slide 1:  
+Bot loops: Fixing with reasoning, not models  
+
+Slide 2:  
+The client's distributor faced a challenge with an influx of messages from farmers that no one had time to answer.  
+
+Slide 3:  
+I built a WhatsApp automation on n8n tailored to how farmers actually write and ask questions.  
+
+Slide 4:  
+The bot collects details like name, location, land size, and issues faced to tailor responses.  
+
+Slide 5:  
+Initially, the bot got stuck in loops because it couldn't parse unstructured queries from farmers.  
+
+Slide 6:  
+The fix wasn't a new model; it required detailed reasoning paths and extensive testing.  
+
+Slide 7:  
+The outcome: Farmers now get answers without calls, and the client’s sales have improved.  
+
+CAROUSEL CAPTION:  
+Loop issues in chatbots aren't always about the model. I tackled a distributor's challenge of answering farmer messages by building a WhatsApp automation on n8n. The real fix wasn't about changing the model, but detailing reasoning steps and rigorous testing. Curious about optimizing your systems? DM me 'WHATSAPP' and I'll share the n8n flow I used.
+
+==================================================
+5. TEXT 3
+==================================================
+n8n's recent 2.34.5 update just made using proxies a lot more reliable. With TLS options now applied per hop when requests go through a proxy, we see a much-needed enhancement to secure communications across multiple stages. I think this matters because when your requests pass through more than one proxy, ensuring TLS settings are preserved at each stage prevents potential security vulnerabilities. This fix is crucial for maintaining integrity and security in complex data operations. 
+
+If you're curious about deploying n8n updates in your workflows, DM me "n8n" and I'll connect you with resources to walk through these changes.
+
