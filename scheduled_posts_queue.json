@@ -8,8 +8,36 @@
     "title": "Nike's Advantage+ Creative Scaling PLAYBOOK.",
     "caption": "Scaling Meta Ads in 2026 isn't about finding a single \"magic creative\" and dumping budget into it.\n\nWithin 10-14 days, single static assets hit frequency ceilings and CPMs surge by 40%+. \n\nTop brands like Nike scale through Modular Creative Velocity:\n• 4 distinct hook variations per visual angle\n• Dynamic catalog feeds mapped to local buying trends\n• Contextual relevance instead of margin-eroding blanket discounts\n\nWhen you give Meta's Advantage+ algorithm modular creative combinations, delivery stabilizes and ROAS compounds over time.\n\nAre you running single static ads or modular creative packs in your ad sets?\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #MediaBuying",
     "pdf_path": "linkedin-carousel-1.pdf",
-    "status": "pending",
-    "created_at": "2026-08-21T09:55:50.671Z"
+    "status": "published",
+    "created_at": "2026-08-21T09:55:50.671Z",
+    "published_at": "2026-08-22T18:30:29.548Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Sat, 22 Aug 2026 18:30:29 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7496997238674694144",
+        "x-restli-id": "urn:li:ugcPost:7496997238674694144",
+        "x-restli-protocol-version": "2.0.0",
+        "set-cookie": [
+          "bcookie=\"v=2&d9814529-abed-4c5b-8892-ef70681cae54\"; domain=.linkedin.com; Path=/; Secure; Expires=Sun, 22-Aug-2027 18:30:29 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787423429:t=1787462395:v=2:sig=AQE0uw4xUa7-UOYnEMYM6D1CSZmx3OVE\"",
+          "__cf_bm=KO5O5HfVe3aOI7GYEmx.7ZFIDEbupq5uJU_FppQN2jk-1787423429.0722322-1.0.1.1-bmcEJw46xr30MKojOXyz7gZu77aOlz_Hzy_UHnErd18Hw7WPdfJrRJ8aU3JErmlM5CKNW83EBcmyfQl9h8nxu3hK_mjX5yxVhyCRxHWkGUmEZpRjLBhDIINcBFgyAYX4; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Sat, 22 Aug 2026 19:00:29 GMT"
+        ],
+        "x-li-fabric": "prod-lva1",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZZpvKONvz3QgDtsSZjqQ==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787423429:t=1787462395:v=2:sig=AQE0uw4xUa7-UOYnEMYM6D1CSZmx3OVE\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "server": "cloudflare",
+        "cf-ray": "a2f3f2efbe941f10-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_1787306150671_2",
