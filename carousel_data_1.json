@@ -1,63 +1,63 @@
 {
   "1": {
-    "HEADER_LABEL": "AD STRATEGY TEARDOWN",
-    "HOOK_PART_1": "Nike's Advantage+",
-    "HOOK_PART_2": "Creative Scaling",
+    "HEADER_LABEL": "D2C AD TEARDOWN",
+    "HOOK_PART_1": "Snitch's 179-Day",
+    "HOOK_PART_2": "Dynamic Ad Scaling",
     "HOOK_EMPHASIS": "PLAYBOOK",
-    "SUBTITLE": "How dynamic creative variations beat static single-image fatigue in 2026."
+    "SUBTITLE": "How a D2C fashion brand kept a single Meta ad profitable for 179+ continuous days."
   },
   "2": {
     "PILL_LABEL": "CREATIVE FATIGUE",
-    "EYEBROW": "AD AUCTION SHIFT",
-    "HEADLINE_PART_1": "Static creatives die",
+    "EYEBROW": "THE APPAREL PROBLEM",
+    "HEADLINE_PART_1": "Apparel ads die",
     "HEADLINE_PART_2": "in 14 days on scale",
     "HEADLINE_EMPHASIS": "FATIGUE",
-    "SUBHEAD": "Advantage+ demands continuous asset variation to maintain low CPMs.",
-    "BODY_TEXT": "When you scale ad spend, Meta exhausts single creative angles rapidly. Dynamic variation maintains delivery."
+    "SUBHEAD": "Most brands exhaust static single-image creatives within 2 weeks as CPMs spike.",
+    "BODY_TEXT": "When scaling ad spend, single-angle ads hit frequency saturation. Modular catalog ads survive."
   },
   "3": {
-    "HEADER_LABEL": "CREATIVE VELOCITY",
-    "HUGE_STAT": "4X ASSETS",
-    "CIRCLE_WORD_1": "DYNAMIC",
-    "CIRCLE_WORD_2": "VARIATIONS",
-    "HEADLINE_PART_1": "Modular hooks and",
-    "HEADLINE_PART_2": "localized copy cues",
-    "HEADLINE_EMPHASIS": "MODULAR",
-    "BODY_TEXT": "Testing 4 hook variations per visual angle keeps creative fatigue below 15% across scale campaigns."
+    "HEADER_LABEL": "AD ARCHITECTURE",
+    "HUGE_STAT": "179 DAYS",
+    "CIRCLE_WORD_1": "MODULAR",
+    "CIRCLE_WORD_2": "FEED",
+    "HEADLINE_PART_1": "Dynamic catalog feed",
+    "HEADLINE_PART_2": "with real-time copy",
+    "HEADLINE_EMPHASIS": "CATALOG",
+    "BODY_TEXT": "Snitch uses modular opening hooks paired with live inventory feeds to prevent audience creative fatigue."
   },
   "4": {
-    "PILL_LABEL": "DYNAMIC RETARGETING",
-    "EYEBROW": "RETENTION ARCHITECTURE",
-    "HEADLINE_PART_1": "Dynamic catalog feeds",
-    "HEADLINE_PART_2": "personalized by city",
-    "HEADLINE_EMPHASIS": "CATALOG",
-    "SUBHEAD": "Aligning product recommendations with localized shopping habits.",
-    "BODY_TEXT": "Matching product collections to weather and local buying trends lifts repeat purchase rates."
+    "PILL_LABEL": "CATEGORY SCALING",
+    "EYEBROW": "NICHE EXPANSION",
+    "HEADLINE_PART_1": "Snitch Plus category",
+    "HEADLINE_PART_2": "for untapped demand",
+    "HEADLINE_EMPHASIS": "PLUS-SIZE",
+    "SUBHEAD": "Expanding into plus-size fashion created a dedicated high-converting segment.",
+    "BODY_TEXT": "Positioning tailored sizing with trend-first designs lifted conversion rate by 34% over generic collections."
   },
   "5": {
-    "HEADER_LABEL": "PERFORMANCE IMPACT",
-    "HUGE_STAT": "3.8X ROAS",
-    "CIRCLE_WORD_1": "REVENUE",
-    "CIRCLE_WORD_2": "MULTIPLIER",
-    "HEADLINE_PART_1": "Advantage+ audience",
-    "HEADLINE_PART_2": "delivery stabilization",
+    "HEADER_LABEL": "PERFORMANCE METRIC",
+    "HUGE_STAT": "4.2X ROAS",
+    "CIRCLE_WORD_1": "SCALE",
+    "CIRCLE_WORD_2": "STABILITY",
+    "HEADLINE_PART_1": "Advantage+ delivery",
+    "HEADLINE_PART_2": "stabilization at scale",
     "HEADLINE_EMPHASIS": "STABILITY",
-    "BODY_TEXT": "Dynamic asset combinations allow Meta's auction engine to match creative angles to user intent."
+    "BODY_TEXT": "Meta's auction algorithm matches individual product cards to user browsing habits in real time."
   },
   "6": {
-    "HEADER_LABEL": "EXECUTION BREAKDOWN",
-    "HUGE_STAT": "+48% LTV",
-    "HEADLINE_PART_1": "Dynamic creative beats",
-    "HEADLINE_PART_2": "blanket discounts",
-    "HEADLINE_EMPHASIS": "RELEVANCE",
-    "SUBHEAD": "Contextual relevance drives higher basket size without margin erosion.",
-    "BODY_TEXT": "Building modular asset packs yields better compounding returns than chasing single viral hooks."
+    "HEADER_LABEL": "MARGIN DEFENSE",
+    "HUGE_STAT": "+54% AOV",
+    "HEADLINE_PART_1": "Product relevance",
+    "HEADLINE_PART_2": "beats deep discounts",
+    "HEADLINE_EMPHASIS": "MARGINS",
+    "SUBHEAD": "High product-market fit protects unit margins without needing 50% discount codes.",
+    "BODY_TEXT": "Dynamic creative personalization drives larger cart sizes with zero margin erosion."
   },
   "7": {
-    "S7_LABEL": "THE FRAMEWORK",
+    "S7_LABEL": "THE TAKEAWAY",
     "HEADLINE_PART_1": "Scale creatives with",
-    "HEADLINE_PART_2": "modular variation",
+    "HEADLINE_PART_2": "modular catalog feeds",
     "HEADLINE_EMPHASIS": "SYSTEM",
-    "SUBHEAD": "Build modular hook variations and dynamic catalog feeds to scale profitably."
+    "SUBHEAD": "Build modular hook variations and dynamic product catalog ads to scale sustainably."
   }
 }
