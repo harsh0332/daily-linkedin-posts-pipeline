@@ -18,6 +18,18 @@ const LINKEDIN_API_VERSION = '202601';
  */
 function apiRequest(options, postData = null, isBinary = false) {
     return new Promise((resolve, reject) => {
+        let payloadBuf = null;
+        if (postData) {
+            if (isBinary) {
+                payloadBuf = postData;
+            } else {
+                const str = typeof postData === 'string' ? postData : JSON.stringify(postData);
+                payloadBuf = Buffer.from(str, 'utf8');
+            }
+            if (!options.headers) options.headers = {};
+            options.headers['Content-Length'] = payloadBuf.length;
+        }
+
         const req = https.request(options, (res) => {
             const chunks = [];
             res.on('data', chunk => chunks.push(chunk));
@@ -37,12 +49,8 @@ function apiRequest(options, postData = null, isBinary = false) {
         });
 
         req.on('error', reject);
-        if (postData) {
-            if (isBinary) {
-                req.write(postData);
-            } else {
-                req.write(typeof postData === 'string' ? postData : JSON.stringify(postData));
-            }
+        if (payloadBuf) {
+            req.write(payloadBuf);
         }
         req.end();
     });
