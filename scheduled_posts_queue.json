@@ -8,8 +8,36 @@
     "title": "Why LinkedIn is the Highest-ROI Distribution Engine for Marketers in 2026",
     "caption": "Cold email open rates are down to 12%. Paid ad CPMs are up 35%.\n\nYet, most B2B founders and performance marketers are still ignoring the highest-ROI distribution engine available in 2026:\n👉 Founder-Led Organic Authority on LinkedIn.\n\nHere is what happens when you build a systematic content pipeline on LinkedIn vs relying purely on paid ads:\n\n1️⃣ Warm Inbound vs Cold Resistance:\nWhen you share granular frameworks, ad teardowns, and automation architectures, prospects consume your expertise before they ever talk to your sales team. Sales velocity jumps 3x.\n\n2️⃣ Zero Customer Acquisition Cost (CAC) Compounding:\nPaid ads stop working the second you pause ad spend. Content compounds — a single technical teardown can generate high-ticket leads 6 months after publishing.\n\n3️⃣ The 'Halo Effect' on Paid Ads:\nWhen prospects see your paid Meta or Google ads and search your name, a strong, authoritative LinkedIn presence provides instant social proof that converts fence-sitters.\n\nIf you are a marketer or agency founder in 2026, building distribution is no longer optional.\n\nAre you prioritizing personal brand distribution this year, or still relying 100% on paid acquisition?\n\nLet's discuss below! 👇\n\n#LinkedInGrowth #B2BMarketing #GrowthStrategy #PersonalBranding #MarketingAutomation #PerformanceMarketing",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-23T07:10:00.987Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Sun, 23 Aug 2026 07:10:00 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7497188379780952064",
+        "x-restli-id": "urn:li:share:7497188379780952064",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZZsY7VRq1d7YHyxNak0A==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787469000:t=1787549101:v=2:sig=AQGGRjwm-IuL1ixfpArna-_soiLcsT2z\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&21e32c04-b917-4cb3-8033-bd2e242c9ead\"; domain=.linkedin.com; Path=/; Secure; Expires=Mon, 23-Aug-2027 07:10:00 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787469000:t=1787549101:v=2:sig=AQGGRjwm-IuL1ixfpArna-_soiLcsT2z\"",
+          "__cf_bm=s.l3pRzeUcz5A2HZaJgqVs6ZiT5pwYEvSaaRUW0AKzg-1787469000.6338859-1.0.1.1-qg.FhhVY8PeGSnnLK4MS1W2E5IriQBpfhvq2GKeR..QLLtpx6I8sHgBbxQmJWqAm49Z7QsvCT0_l2R0r2yu.E8mSonbJqsFbt6jbPDfLkhm.9N4__RhQCsEeukk2LU1P; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Sun, 23 Aug 2026 07:40:00 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a2f84b85fa129692-SEA",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_monday_0824",
