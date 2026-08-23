@@ -57,15 +57,26 @@ function apiRequest(options, postData = null, isBinary = false) {
 }
 
 /**
+ * Escape LinkedIn LittleText markdown special characters.
+ * LinkedIn REST API silently truncates commentary if characters like (), [], {}, @, |, ~, _, *, <, > are unescaped.
+ */
+function escapeLinkedInText(text) {
+    if (!text) return '';
+    return text.replace(/([\\()\[\]{}<>@|~_`*])/g, '\\$1');
+}
+
+/**
  * Publish a Text Post directly via LinkedIn API
  */
 async function publishTextPost(commentary) {
     const creds = getCredentials();
     console.log(`[*] Publishing text post to ${creds.name} (${creds.person_urn})...`);
 
+    const sanitizedCommentary = escapeLinkedInText(commentary);
+
     const payload = {
         author: creds.person_urn,
-        commentary: commentary,
+        commentary: sanitizedCommentary,
         visibility: 'PUBLIC',
         distribution: {
             feedDistribution: 'MAIN_FEED',
@@ -145,9 +156,10 @@ async function publishDocumentPost(pdfFilePath, title, commentary) {
     console.log(`[✓] Document binary uploaded!`);
 
     console.log(`[*] Step 3: Publishing Carousel post with attached document...`);
+    const sanitizedCommentary = escapeLinkedInText(commentary);
     const postPayload = {
         author: creds.person_urn,
-        commentary: commentary,
+        commentary: sanitizedCommentary,
         visibility: 'PUBLIC',
         distribution: {
             feedDistribution: 'MAIN_FEED',
@@ -233,9 +245,10 @@ async function publishImagePost(imageFilePath, commentary, altText = '') {
     console.log(`[✓] Image binary uploaded!`);
 
     console.log(`[*] Step 3: Publishing Post with attached image...`);
+    const sanitizedCommentary = escapeLinkedInText(commentary);
     const postPayload = {
         author: creds.person_urn,
-        commentary: commentary,
+        commentary: sanitizedCommentary,
         visibility: 'PUBLIC',
         distribution: {
             feedDistribution: 'MAIN_FEED',

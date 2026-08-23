@@ -5,7 +5,7 @@ const path = require('path');
 const credPath = path.resolve(__dirname, 'linkedin_api_credentials.json');
 const creds = JSON.parse(fs.readFileSync(credPath, 'utf8'));
 
-const postUrn = 'urn:li:share:7497188379780952064';
+const postUrn = 'urn:li:share:7497289148953874432';
 const encodedUrn = encodeURIComponent(postUrn);
 
 const options = {
