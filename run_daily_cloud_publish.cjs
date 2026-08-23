@@ -33,8 +33,7 @@ async function runDailyPublish() {
     const now = new Date();
     const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDay = dayNames[now.getDay()];
-    console.log(`[*] Current Run Time: ${now.toISOString()} (${currentDay})`);
-
+    const isManualTrigger = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
     // Allow Monday to Friday, plus Sunday test runs
     if (!isManualTrigger && now.getDay() === 6) {
         console.log('[*] Saturday detected. Skipping automatic cron publishing.');
