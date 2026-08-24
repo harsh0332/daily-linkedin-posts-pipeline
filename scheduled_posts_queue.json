@@ -48,8 +48,37 @@
     "title": "Snitch's 179-Day Dynamic Ad Scaling Playbook",
     "caption": "How does a D2C fashion brand keep a single ad creative active and profitable for 179+ continuous days?\n\nMost apparel brands kill creatives after 2 weeks due to fatigue. Snitch scaled through Modular Hook Architecture:\n\n• 4 modular opening hooks testing distinct user triggers\n• Dynamic catalog retargeting mapped to localized weather and buying trends\n• Contextual social proof instead of margin-eroding blanket discounts\n\nWhen you give Meta's Advantage+ algorithm modular creative combinations, delivery stabilizes and ROAS compounds.\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #MediaBuying",
     "pdf_path": "linkedin-carousel-1.pdf",
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-24T04:49:15.522Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Mon, 24 Aug 2026 04:49:15 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7497515344522190848",
+        "x-restli-id": "urn:li:ugcPost:7497515344522190848",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-lor1",
+        "x-li-pop": "cf-prod-lor1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZZw7VGwgd5/ygjW5iFbw==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787546955:t=1787549101:v=2:sig=AQH2gz0awy3rwhdpC4TwziAFd0S78Cik\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&6d4827b8-9eef-4fc6-86e6-c84b780ef746\"; domain=.linkedin.com; Path=/; Secure; Expires=Tue, 24-Aug-2027 04:49:15 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787546955:t=1787549101:v=2:sig=AQH2gz0awy3rwhdpC4TwziAFd0S78Cik\"",
+          "__cf_bm=2vkmEQ8kXT3i.AaiN0EQ6mgaTsTerTZJ722sdSofGu0-1787546955.052376-1.0.1.1-rE2uKmHMbr6fRHgh7PJnx.OYy3MzTew.1yBZxiuaiJ3VIsN8wCiXUsnK.2.7ugg2K04LbyAh7sVjDphL2ljbgW8ZOFkvR3gERyHkASpEqhp4Q1oCYfElwoShbBKOzQP_; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Mon, 24 Aug 2026 05:19:15 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a2ffbab51ff74c71-SJC",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_tuesday_0825",
