@@ -89,8 +89,36 @@
     "title": "The $27.66 Meta Lead CPL Reality & The CP-FMA Model",
     "caption": "LocaliQ's 2024/2025 cross-industry benchmark reveals the median Facebook Lead Gen Cost Per Lead sits at $27.66.\n\nYet, many media buyers celebrate a $3 CPL without checking if any of those leads ever buy.\n\nIn 2026, the metric that actually dictates profitability is:\n👉 Cost Per First Meaningful Action (CP-FMA).\n\nIf 100 leads at $3 generate 1 closed sale ($300 CAC), but 30 pre-qualified leads at $8 generate 6 closed sales ($40 CAC) — intentional friction wins every time.\n\n1️⃣ Add 2-step intent confirmation to your lead forms\n2️⃣ Force structured budget range selection\n3️⃣ Send verified 'QualifiedLead' events back to Meta Conversions API (CAPI)\n\nAre you optimizing your campaigns for raw lead volume or qualified sales velocity?\n\nShare your thoughts in the comments! 👇\n\n#PerformanceMarketing #MetaAds #GrowthStrategy #LeadGeneration #B2BMarketing #MarketingAnalytics #CPL",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-25T04:42:06.197Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Tue, 25 Aug 2026 04:42:06 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7497875931865251840",
+        "x-restli-id": "urn:li:share:7497875931865251840",
+        "x-restli-protocol-version": "2.0.0",
+        "set-cookie": [
+          "bcookie=\"v=2&43c63767-3709-4b1f-8697-0f15c296a45d\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 25-Aug-2027 04:42:06 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787632925:t=1787636047:v=2:sig=AQH48Whacsw27roJnmwjolp0eLqOruH2\"",
+          "__cf_bm=LxXQQfIreqgN7JS1pkcQfm8gljymIjYHNm8ruTvnh4c-1787632925.839439-1.0.1.1-atQ.JzhA1AglAmmqiXhRWopvDfOHglRCwF3gBf.f6doy6hTsdQXDTsk2TIa7wpa63FdkaA1TmMkRKnJPvzVNn7PqrcKbWGTRNS9T93I446mvSLDLmK8Pzi3M49vhFMgD; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Tue, 25 Aug 2026 05:12:06 GMT"
+        ],
+        "x-li-fabric": "prod-lva1",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZZ17mJMcmb+dpOpbkiVQ==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787632925:t=1787636047:v=2:sig=AQH48Whacsw27roJnmwjolp0eLqOruH2\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "server": "cloudflare",
+        "cf-ray": "a307ed9a7a41fbec-SJC",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_wednesday_0826",
