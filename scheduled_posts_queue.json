@@ -129,8 +129,39 @@
     "title": "Sync Offline Revenue to Meta via n8n PIPELINE",
     "caption": "The biggest blindspot in high-ticket Meta Ad campaigns:\nMeta optimizes in the dark.\n\nIf your sales team closes deals on calls, on WhatsApp, or inside CRM pipelines, Meta's auction engine has zero idea which leads generated revenue.\n\nHere is how we automate the feedback loop using n8n and Meta Conversions API (CAPI):\n⚡ 1. Deal marked 'Closed-Won' in Sheets / CRM\n⚡ 2. Real-time n8n webhook triggers\n⚡ 3. SHA-256 encrypted hashing of customer data (9.0+ EMQ score)\n⚡ 4. Transaction value fed back to Meta Ads Manager\n\nWithin 14 days, Advantage+ recalculates bidding toward high-value buyers.\n\nSwipe through the complete architecture above! 👆\n\n#n8n #Automation #MetaAds #ConversionsAPI #GrowthEngineering #B2BSales #DataPipeline",
     "pdf_path": "linkedin-carousel-2.pdf",
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-26T04:42:51.490Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Wed, 26 Aug 2026 04:42:51 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7498238509124644865",
+        "x-restli-id": "urn:li:ugcPost:7498238509124644865",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "set-cookie": [
+          "bcookie=\"v=2&fde16d42-681e-41c4-811d-a6804fdbe264\"; domain=.linkedin.com; Path=/; Secure; Expires=Thu, 26-Aug-2027 04:42:51 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787719371:t=1787722955:v=2:sig=AQHo77OsKwkSnPMk_eYhvFNsxZhGZNuL\"",
+          "__cf_bm=GbZ4PfqFjSDApT.QG2T0Pyh2ig_sNz8oQhZoLY3JWUM-1787719370.964332-1.0.1.1-1mDTLxyHSosvZU__wm5ta6qS.3XuHzMnSusCUuFnW67EyOTPE9BO_tvL1xI6vkXprRjDvOLhIjSQBIZDD40Ls4VOIpzbuVnTC.m0c0UY9LXR9NRzwknlQTvfo1FjruWW; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Wed, 26 Aug 2026 05:12:51 GMT"
+        ],
+        "x-li-source-fabric": "prod-ltx1",
+        "report-to": "{\"group\":\"network-errors\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://www.linkedin.com/li/rep\"}],\"include_subdomains\":true}",
+        "nel": "{\"report_to\":\"network-errors\",\"max_age\":1296000,\"success_fraction\":0.00066,\"failure_fraction\":1,\"include_subdomains\":true}",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZZ69oQ4Ah30BRrauLXTw==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787719371:t=1787722955:v=2:sig=AQHo77OsKwkSnPMk_eYhvFNsxZhGZNuL\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "server": "cloudflare",
+        "cf-ray": "a3102c148ff80c73-MSP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_thursday_0827",
