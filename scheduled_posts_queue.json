@@ -138,8 +138,8 @@
         "date": "Wed, 26 Aug 2026 04:42:51 GMT",
         "content-length": "0",
         "connection": "keep-alive",
-        "location": "/posts/urn%3Ali%3AugcPost%3A7498238509124644865",
-        "x-restli-id": "urn:li:ugcPost:7498238509124644865",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7498437596797370369",
+        "x-restli-id": "urn:li:ugcPost:7498437596797370369",
         "x-restli-protocol-version": "2.0.0",
         "x-li-fabric": "prod-lva1",
         "set-cookie": [

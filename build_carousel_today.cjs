@@ -74,6 +74,7 @@ const { execSync } = require('child_process');
         const destDir = path.resolve(__dirname, './slack_downloads');
         fs.mkdirSync(destDir, { recursive: true });
         fs.copyFileSync(pdfPath, path.join(destDir, `carousel-${idx}.pdf`));
+        fs.copyFileSync(pdfPath, path.resolve(__dirname, `linkedin-carousel-${idx}.pdf`));
         if (idx === 1) {
             fs.copyFileSync(pdfPath, path.join(destDir, `carousel-${dateStr}.pdf`));
         }
