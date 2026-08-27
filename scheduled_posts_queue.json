@@ -172,8 +172,38 @@
     "title": "Why Scaling Meta Budget by 50% Daily Breaks Your CPM",
     "caption": "The fastest way to wreck a winning Meta Ad set:\n👉 Increasing the daily budget by 50% after two great days.\n\nHere is why vertical budget spikes kill campaign efficiency:\n\n1️⃣ Learning Phase Reset:\nAny budget bump over 20% resets auction pacing and triggers a re-learning phase.\n\n2️⃣ Auction Tier Inflation:\nDoubling budget vertically forces Meta to enter costlier auction segments in real time, surging CPMs by 40%+.\n\n3️⃣ The Solution: Horizontal Scaling:\n• Increase vertical budget by max 15-20% every 48-72 hours only if CPA holds.\n• Scale horizontally by introducing modular creative angles into Advantage+ testing campaigns.\n• Isolate winners into a dedicated scaling campaign with cost caps.\n\nScaling ad spend is an engineering exercise, not an adrenaline rush.\n\nHow do you pace your budget scaling? Let's discuss below! 👇\n\n#MetaAds #MediaBuying #PerformanceMarketing #AdScaling #GrowthHacking #DigitalAdvertising #PPC",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-27T15:03:11.380Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Thu, 27 Aug 2026 15:03:11 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7498757007164801024",
+        "x-restli-id": "urn:li:share:7498757007164801024",
+        "x-restli-protocol-version": "2.0.0",
+        "set-cookie": [
+          "bcookie=\"v=2&347a9ccc-57ef-4412-8fcc-28b708ecf522\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 27-Aug-2027 15:03:11 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787842990:t=1787896836:v=2:sig=AQEc8Q1tfnnoRgGL6AtV4k9FG5Ksj8vA\"",
+          "__cf_bm=Kt7pmeli5FG1vkhNr3Ex0EeKCNS0f1OwgK35a_3h9mQ-1787842990.5587664-1.0.1.1-QK5zdobyh3FK3P.OkhpsgAjhT2f6cDS7Ls8Fdh7.eaF2TIjGdyB.LQdxowaFM5_qCGQ_NkwcjWRf02monfv_XIFFplPH7cuxPptOdSV.QeWi_6i1VWgxAvqYHNG4RpW2; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Thu, 27 Aug 2026 15:33:11 GMT"
+        ],
+        "x-li-fabric": "prod-lva1",
+        "report-to": "{\"group\":\"network-errors\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://www.linkedin.com/li/rep\"}],\"include_subdomains\":true}",
+        "nel": "{\"report_to\":\"network-errors\",\"max_age\":1296000,\"success_fraction\":0.00066,\"failure_fraction\":1,\"include_subdomains\":true}",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZaCKJefWoYyUIWJvjW0Q==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=237:x=1:i=1787842990:t=1787896836:v=2:sig=AQEc8Q1tfnnoRgGL6AtV4k9FG5Ksj8vA\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "server": "cloudflare",
+        "cf-ray": "a31bf622ff5b0653-SJC",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_friday_0828",
