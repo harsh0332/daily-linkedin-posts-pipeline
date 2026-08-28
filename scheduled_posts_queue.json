@@ -214,7 +214,36 @@
     "title": "Meta CAPI Gateway Diagnostics & In-App WhatsApp Flows Update",
     "caption": "Two major infrastructure updates every performance marketer needs to know this month:\n\n1️⃣ Meta CAPI Gateway Real-Time Signal Diagnostics:\nMeta rolled out automated parameter drop-off alerts inside CAPI Gateway. Advertisers can now detect when fbp, fbc, or user data parameters fail to fire before ad delivery is throttled.\n\n2️⃣ Native Flow Forms inside WhatsApp Cloud API:\nWhatsApp updated native interactive templates to support multi-step qualification forms directly within the chat window without redirecting users to external URLs.\n\nConnecting these two tools: in-app WhatsApp qualification + real-time CAPI revenue feedback = sub-60-second speed-to-lead with zero attribution leakage.\n\nHave you tested native WhatsApp flow forms in your ad funnels yet?\n\nLet's connect in the comments! 👇\n\n#MetaAds #WhatsAppMarketing #ConversionsAPI #MarketingAutomation #GrowthHacking #DigitalMarketing #AI",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-08-23T00:23:00.000Z"
+    "status": "published",
+    "created_at": "2026-08-23T00:23:00.000Z",
+    "published_at": "2026-08-28T16:25:57.545Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Fri, 28 Aug 2026 16:25:57 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7499140226406158336",
+        "x-restli-id": "urn:li:share:7499140226406158336",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-ltx1",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZaHeg70ECR7L6gSgNXwg==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=239:x=1:i=1787934357:t=1787974702:v=2:sig=AQEqrKydDniXBsXHrjDltkf6ofMuTKUH\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&51013d89-904d-480d-8ffe-09c00252976b\"; domain=.linkedin.com; Path=/; Secure; Expires=Sat, 28-Aug-2027 16:25:57 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4608:u=239:x=1:i=1787934357:t=1787974702:v=2:sig=AQEqrKydDniXBsXHrjDltkf6ofMuTKUH\"",
+          "__cf_bm=ypQ_0SRy7uOQLgUsooejVIO.t90LKb6EtH6EMXqPW7A-1787934356.9902823-1.0.1.1-Elbrua98r9sP7FEGbL.fyBZorEzpqMPKYuQIipA9J22mRo2DFXgiJxoDkFD9W_lmpvVKnhYIxTHgth8SGf.pZtyIwUQF8teiQwlqDj6RXHJCjcO8x9agqfWPQXpL.Eeu; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Fri, 28 Aug 2026 16:55:57 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a324acc32f477816-MSP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   }
 ]
