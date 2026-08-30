@@ -2,8 +2,9 @@ name: Daily Autonomous LinkedIn Publisher
 
 on:
   schedule:
-    # 04:00 UTC = 09:30 AM IST (Sunday to Friday)
-    - cron: '0 4 * * 0-5'
+    # 03:15 UTC = 08:45 AM IST (Monday to Friday)
+    # Using an off-peak minute (:15) ensures instant runner allocation without GitHub queue delay
+    - cron: '15 3 * * 1-5'
   workflow_dispatch: # Allows manual trigger anytime from GitHub UI
 
 permissions:
