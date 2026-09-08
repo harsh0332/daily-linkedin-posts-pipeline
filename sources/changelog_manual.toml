@@ -4,6 +4,30 @@
 # Every field below is required; a missing date aborts the fetch.
 
 [[entry]]
+id     = "meta-advantage-plus-catalog-expansion-2026-09"
+source = "Meta for Business"
+title  = "Meta Advantage+ Creative Dynamic Category Feeds & Real-Time Price Overlays"
+body   = """
+* Automated real-time price and discount badge overlays rendered directly inside Advantage+ dynamic creative carousels
+* Multi-destination product catalog routing sending users to localized storefronts based on IP geolocation
+* Automatic fallback to top-converting SKU cards when individual catalog items go out of stock
+* Up to 28% reduction in CPA for multi-product D2C campaigns utilizing dynamic category feeds
+"""
+date   = "2026-09-04"
+
+[[entry]]
+id     = "wa-cloud-api-interactive-lists-2026-09"
+source = "WhatsApp Cloud API"
+title  = "WhatsApp Cloud API Interactive Carousel Messages & Multi-Product Catalogs"
+body   = """
+* Native 10-card horizontal swipeable carousel messages directly within WhatsApp Cloud API conversations
+* Dynamic header cards with 1-click CTA buttons for instant payment link generation
+* Sub-second webhook delivery for real-time customer reply routing into n8n and CRM systems
+* Full end-to-end encryption with zero PII retention on intermediary messaging servers
+"""
+date   = "2026-09-02"
+
+[[entry]]
 id     = "meta-capi-gateway-diagnostics-2026-08"
 source = "Meta for Business"
 title  = "Meta Conversions API Gateway Auto-Diagnostics & Signal Quality Scoring"
