@@ -21,8 +21,36 @@
     "title": "The Derma Co's Problem-Solution Playbook",
     "caption": "How does The Derma Co scale Meta Ads profitably in hyper-competitive beauty categories?\n\nMost skincare brands burn cash on aesthetic lifestyle model shots that fail to convert.\n\nThe Derma Co scales through Clinical Problem-Solution Architecture:\n• Leading with active ingredient percentages (e.g. 3% AHA+BHA, 2% Kojic Acid) as the primary hook\n• Dynamic Product Ads (DPA) mapped to specific skin concerns\n• Structured routine bundling that drives higher Average Order Value (AOV) without margin-eroding discounts\n\nWhen your creative educates on active formulations, problem-aware shoppers convert faster and stick longer.\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #SkincareMarketing",
     "pdf_path": "linkedin-carousel-1.pdf",
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-09T08:06:39.821Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Wed, 09 Sep 2026 08:06:39 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7503363229029462017",
+        "x-restli-id": "urn:li:ugcPost:7503363229029462017",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZbCFS4JJoUgS4g/gpPSw==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1788941199:t=1789021875:v=2:sig=AQHZQPsbacNgAE0HC8vwVu1UpiBJgeir\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&0e635843-58ab-435c-8ee2-1b6cefcb1ece\"; domain=.linkedin.com; Path=/; Secure; Expires=Thu, 09-Sep-2027 08:06:39 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1788941199:t=1789021875:v=2:sig=AQHZQPsbacNgAE0HC8vwVu1UpiBJgeir\"",
+          "__cf_bm=Npqxfh_8t3pvxk_dNuvYlrZHNjvSDFxOYcLG31HQiXk-1788941199.468076-1.0.1.1-6gN4KK454B07Kop_s3o1ZjApvtzHwviJNaO96Ce4hUSk.XOCPReaiG9TBXyLHjIxt8iJj_.igeEDQt0peCanDD6qNZn0tS6KolnHfRwnL_RSHne3penWOjCbITSb0s7b; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Wed, 09 Sep 2026 08:36:39 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a384b1e0ab116087-ORD",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_thursday_0910",
