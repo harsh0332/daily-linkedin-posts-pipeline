@@ -61,8 +61,37 @@
     "title": "Why Vertical Budget Spikes Kill Your Meta Ad ROAS",
     "caption": "The most common mistake media buyers make after two profitable days:\n👉 Bumping daily ad spend by 50% overnight.\n\nHere is why vertical budget spikes destroy campaign efficiency in 2026:\n\n1️⃣ Auction Pacing Shock:\nA budget increase above 20% resets Meta's learning phase and forces the pacing engine to aggressively bid in high-CPM auction tiers.\n\n2️⃣ Creative Fatigue Acceleration:\nDoubling spend vertically burns through your core winning audience segment 2x faster, causing frequency and CPMs to surge simultaneously.\n\n3️⃣ The Solution: Horizontal Scaling:\n• Limit vertical budget bumps to max 15-20% every 48-72 hours.\n• Scale horizontally by launching fresh modular creative angles into Broad sandbox campaigns.\n• Graduate proven creative winners into a dedicated Advantage+ scaling campaign with cost caps.\n\nScaling ad spend is an engineering exercise, not an emotional reaction.\n\nHow do you pace your budget scaling? Let's discuss below! 👇\n\n#MetaAds #MediaBuying #PerformanceMarketing #AdScaling #GrowthHacking #DigitalAdvertising #PPC",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-10T08:05:23.416Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Thu, 10 Sep 2026 08:05:23 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7503725294659284992",
+        "x-restli-id": "urn:li:share:7503725294659284992",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-ltx1",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZbHG35SXOSiXnwL+ZQXQ==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789027522:t=1789108958:v=2:sig=AQHOWAm4X8Q93SWS5Tr94cA0fI-uwa4h\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&b0e3128b-1264-4403-87e9-388392a2458f\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 10-Sep-2027 08:05:23 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789027522:t=1789108958:v=2:sig=AQHOWAm4X8Q93SWS5Tr94cA0fI-uwa4h\"",
+          "__cf_bm=MdJ7Uu.jNLMVTD56c_z9sDzq.cLBSQfp0EWdXIRP87g-1789027522.513084-1.0.1.1-qAQC9rsmnmzYvzxuE15lF6W0jskIgClSFd2ajrwaeyEJ0M24aBJ7z4mD1CyKUJNsk2kCUEl_b2nLZhVg06f8dgNlNKHbpiE_c.cikU1fmxrBfyornN2WREE6xT_4HKiB; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Thu, 10 Sep 2026 08:35:23 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a38ced5fbe1b844d-ORD",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_friday_0911",
