@@ -102,8 +102,37 @@
     "title": "Meta Advantage+ Dynamic Overlays & WhatsApp Interactive Carousels",
     "caption": "Two critical platform updates performance marketers need to deploy this month:\n\n1️⃣ Meta Advantage+ Dynamic Overlays:\nMeta rolled out real-time pricing and discount badge overlays directly rendered on dynamic catalog creative cards. Advertisers testing dynamic category feeds report up to 28% lower CPA for multi-SKU D2C campaigns.\n\n2️⃣ WhatsApp Cloud API 10-Card Interactive Carousels:\nWhatsApp updated native interactive templates to support horizontal swipeable product carousels with 1-click CTA buttons right inside the conversation window.\n\nConnecting Advantage+ catalog ads directly to instant WhatsApp carousel checkouts creates a frictionless social commerce loop.\n\nHave you tested native WhatsApp catalog carousels in your sales funnels yet?\n\nLet's connect in the comments! 👇\n\n#MetaAds #WhatsAppMarketing #ConversionsAPI #MarketingAutomation #GrowthHacking #DigitalMarketing #Ecommerce",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-11T08:00:23.019Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Fri, 11 Sep 2026 08:00:23 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7504086424476958722",
+        "x-restli-id": "urn:li:share:7504086424476958722",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-ltx1",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZbMHnv+Jj9ybMVjlA/sg==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789113622:t=1789195863:v=2:sig=AQE37qBZoaOS-8tq4SJ0FXULTy37Kzfn\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&1024a84a-3ec2-43f5-8ada-abb70cf68f7d\"; domain=.linkedin.com; Path=/; Secure; Expires=Sat, 11-Sep-2027 08:00:22 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789113622:t=1789195863:v=2:sig=AQE37qBZoaOS-8tq4SJ0FXULTy37Kzfn\"",
+          "__cf_bm=hkrIG6H3.6egZ4NKEpiR7MdcEZXhFPfadp50YtnaQgU-1789113622.5647793-1.0.1.1-b0VdalnwZYUmmYIrr8DpJcXaHzDKoXY4J78ceOXKRqS59vj9QpjdwzzS7UVmgWR0TPl_CVfj_fMti912Dt4l3NB1ihHLsbymtpTgYLa_0pcPwoYQQ1jUWrQaYyxmeuN7; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Fri, 11 Sep 2026 08:30:23 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a395236d086d0891-IAD",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_monday_0914",
