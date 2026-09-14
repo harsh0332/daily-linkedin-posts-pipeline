@@ -143,8 +143,37 @@
     "title": "Mamaearth's Toxin-Free Scaling Playbook",
     "caption": "How Mamaearth scaled from zero to IPO on Meta Ads through Problem-Solution Angle Velocity:\n\n• Testing 4 modular problem hooks (hair fall, frizz, dandruff, scalp health) around a single hero SKU\n• UGC creator testimonials paired with clinical toxin-free certification badges\n• Dynamic retargeting bundles that lift average cart size\n\nWhen your creative answers specific consumer anxieties, conversion rates stabilize across scale.\n\nSwipe through the teardown above! 👆\n\n#MetaAds #PerformanceMarketing #GrowthMarketing #AdStrategy #CreativeStrategy #D2CGrowth #MediaBuying",
     "pdf_path": "linkedin-carousel-2.pdf",
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-14T08:51:06.568Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Mon, 14 Sep 2026 08:51:06 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7505186353299554304",
+        "x-restli-id": "urn:li:ugcPost:7505186353299554304",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-ltx1",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZbbYjeLOH/sAD/SfI/fQ==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789375866:t=1789460091:v=2:sig=AQFsNbJbwJUagzBQ7ujKER0S1Tyr-IcE\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&72bfa69a-eb38-44b3-809d-231758eef20e\"; domain=.linkedin.com; Path=/; Secure; Expires=Tue, 14-Sep-2027 08:51:06 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789375866:t=1789460091:v=2:sig=AQFsNbJbwJUagzBQ7ujKER0S1Tyr-IcE\"",
+          "__cf_bm=IVRf5mKFqb.pyae6RPUwgdzm37QqgODByLspanejMqk-1789375866.0614128-1.0.1.1-ixZJZG3FYA1WbRdNp.p2v9OeIhGa5pfNzRepZhtT_X_RCdZdYNf1CGGTdhkc2KejnM7Fg7v2tPrdMNx2nSQthh00Uf3VHLMDkMYarZ4SzK7Pp7Uw_.naKCr4NupqVB1z; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Mon, 14 Sep 2026 09:21:06 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a3ae25daeb85ae00-SJC",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_tuesday_0915",
