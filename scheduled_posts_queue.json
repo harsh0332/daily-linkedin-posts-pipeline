@@ -184,8 +184,38 @@
     "title": "LocaliQ's 2.59% CTR Benchmark: The Hook Velocity Framework",
     "caption": "LocaliQ's cross-industry benchmark reveals the median Facebook Ad Click-Through Rate (CTR) sits at 2.59%.\n\nIf your ads are averaging below 1.2% CTR, your media buyer is blaming 'ad fatigue' when the real issue is Hook Decay.\n\nHere is how we consistently maintain 3.5%+ CTR across scale campaigns:\n\n1️⃣ The 3-Second Hook Rule:\nTest 3 visual hook variations (Problem Demo, Stat Callout, Contrarian Statement) for every 1 body angle.\n\n2️⃣ Contextual Native Typography:\nReplace polished studio graphics with native UI typography and clean contrast overlays.\n\n3️⃣ Continuous Angle Velocity:\nRotate winning hooks every 14 days before frequency surpasses 2.8.\n\nWhat is your current account-wide CTR on Meta?\n\nLet's discuss below! 👇\n\n#PerformanceMarketing #MetaAds #GrowthStrategy #LeadGeneration #B2BMarketing #MarketingAnalytics #CTR",
     "pdf_path": null,
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-15T08:37:46.143Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Tue, 15 Sep 2026 08:37:46 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3Ashare%3A7505545383951953920",
+        "x-restli-id": "urn:li:share:7505545383951953920",
+        "x-restli-protocol-version": "2.0.0",
+        "set-cookie": [
+          "bcookie=\"v=2&221b9ab7-4f71-42e0-8489-9a36d633f2e5\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 15-Sep-2027 08:37:46 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789461465:t=1789547138:v=2:sig=AQEuLRLYd9_1IBw8H0AYHlOuJ99Yfo-p\"",
+          "__cf_bm=oBmVROiHZTYSDpyVV_XC26SP1sWBourl3rfaS2fN4Q8-1789461465.7050445-1.0.1.1-L.hbN0Njjbbr57QQp856vmblrkxT.ESmsld8dtbYv8Q3KPixpQvjmp6_1r7If4uSK1CIAsEBaMfumjkJAWFUMACH96egQ.6QU9HwQy_Ufd0c6v3AOPlX1rCt43LHOZrN; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Tue, 15 Sep 2026 09:07:46 GMT"
+        ],
+        "x-li-fabric": "prod-lva1",
+        "report-to": "{\"group\":\"network-errors\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://www.linkedin.com/li/rep\"}],\"include_subdomains\":true}",
+        "nel": "{\"report_to\":\"network-errors\",\"max_age\":1296000,\"success_fraction\":0.00066,\"failure_fraction\":1,\"include_subdomains\":true}",
+        "x-li-pop": "cf-prod-lva1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZbgXcBTysbuGPIOZMXmg==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789461465:t=1789547138:v=2:sig=AQEuLRLYd9_1IBw8H0AYHlOuJ99Yfo-p\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "server": "cloudflare",
+        "cf-ray": "a3b64fb0abf869b4-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_wednesday_0916",
