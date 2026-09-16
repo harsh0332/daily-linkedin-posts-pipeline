@@ -226,8 +226,37 @@
     "title": "Automating Sub-60s Lead Nurturing via n8n & WhatsApp",
     "caption": "Why do 70% of inbound Meta Ad leads go cold?\nBecause responding in 30 minutes is 29 minutes too late.\n\nHere is how we automate Sub-60-Second Speed-to-Lead using n8n and WhatsApp Cloud API:\n⚡ 1. Lead submits Meta Instant Form or Web Form\n⚡ 2. Real-time n8n webhook triggers in < 2 seconds\n⚡ 3. Automated WhatsApp message sends instant calendar booking or qualification filter\n⚡ 4. Real-time sales rep assignment via round-robin routing\n\nSpeed-to-lead is the highest-leverage conversion unlock in modern performance funnels.\n\nSwipe through the complete architecture above! 👆\n\n#n8n #Automation #MetaAds #WhatsAppMarketing #GrowthEngineering #B2BSales #DataPipeline",
     "pdf_path": "linkedin-carousel-3.pdf",
-    "status": "pending",
-    "created_at": "2026-09-08T15:46:00.000Z"
+    "status": "published",
+    "created_at": "2026-09-08T15:46:00.000Z",
+    "published_at": "2026-09-16T08:32:22.734Z",
+    "api_result": {
+      "status": 201,
+      "headers": {
+        "date": "Wed, 16 Sep 2026 08:32:22 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "location": "/posts/urn%3Ali%3AugcPost%3A7505906415455285248",
+        "x-restli-id": "urn:li:ugcPost:7505906415455285248",
+        "x-restli-protocol-version": "2.0.0",
+        "x-li-fabric": "prod-lva1",
+        "x-li-source-fabric": "prod-ltx1",
+        "x-li-pop": "cf-prod-ltx1-x",
+        "x-li-proto": "http/1.1",
+        "x-li-uuid": "AAZblYGRh+iyfODrgGZ+Dg==",
+        "x-content-type-options": "nosniff",
+        "x-li-route-key": "\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789547542:t=1789633941:v=2:sig=AQFvy5tLyy9GrZxFiwU_S2m1ZVtybM1e\"",
+        "cf-cache-status": "DYNAMIC",
+        "strict-transport-security": "max-age=31536000",
+        "set-cookie": [
+          "bcookie=\"v=2&67b33094-b1e3-40ea-8cba-f9f88e3d1f0a\"; domain=.linkedin.com; Path=/; Secure; Expires=Thu, 16-Sep-2027 08:32:22 GMT; SameSite=None",
+          "lidc=\"b=VB84:s=V:r=V:a=V:p=V:g=4609:u=245:x=1:i=1789547542:t=1789633941:v=2:sig=AQFvy5tLyy9GrZxFiwU_S2m1ZVtybM1e\"",
+          "__cf_bm=ol2HteMfXvRhrRv6F.leZ.h6rUVTIaS48Jj29RXjDvI-1789547542.2925653-1.0.1.1-GuETo2FEooQUl.8tyed8FM2Smc79dCbDTPCX8Ml.DKyoRo4tXThWO1aifZb6AgQ0SDVtELjGqthn.AY_oqdh1v_m03T3AxOhKr9.VVyEK6plo0SdW9Ns.rx2shlIwSKW; HttpOnly; Secure; Path=/; Domain=linkedin.com; Expires=Wed, 16 Sep 2026 09:02:22 GMT"
+        ],
+        "server": "cloudflare",
+        "cf-ray": "a3be852b4d407650-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
   },
   {
     "id": "post_thursday_0917",
